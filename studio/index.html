@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Studio</title>
+  <link rel="stylesheet" href="studio.css">
+</head>
+<body>
+  <div class="st-app" id="app">
+    <header class="st-top">
+      <a class="st-top-back" href="../" title="All cases">← All cases</a>
+      <div class="st-top-title"><strong id="caseTitle">Loading…</strong><span id="pageTitle"></span></div>
+      <div class="st-top-actions">
+        <span class="st-zoom" id="zoomLabel" aria-live="polite">100%</span>
+        <button class="st-btn" type="button" id="fitBtn" title="Zoom to fit (Shift+1)">Fit</button>
+        <a class="st-btn" id="figmaBtn" target="_blank" rel="noopener" hidden>Open in Figma</a>
+        <button class="st-btn st-btn-primary" type="button" id="presentBtn" hidden>▶ Present</button>
+      </div>
+    </header>
+
+    <aside class="st-side" aria-label="Pages and frames">
+      <section class="st-side-sec">
+        <h2 class="st-side-h">Pages</h2>
+        <nav id="pages" class="st-pages" aria-label="Pages"></nav>
+      </section>
+      <section class="st-side-sec st-side-grow">
+        <h2 class="st-side-h">Frames <span id="frameCount"></span></h2>
+        <ul id="frames" class="st-frames"></ul>
+      </section>
+    </aside>
+
+    <main class="st-canvas" id="canvas" tabindex="0" aria-label="Canvas. Scroll to pan, Ctrl or Cmd + scroll to zoom, double-click a frame to zoom to it.">
+      <div class="st-world" id="world"></div>
+      <div class="st-overlay" id="overlay" aria-hidden="true"></div>
+      <div class="st-empty" id="empty" hidden></div>
+    </main>
+  </div>
+
+  <div class="st-narrow" role="alert">Case Studio is built for desktop. Open it on a screen at least 1024 px wide.</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

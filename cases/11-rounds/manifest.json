@@ -1,0 +1,1589 @@
+{
+ "case": "11-rounds",
+ "title": "Rounds",
+ "source": {
+  "type": "figma",
+  "fileKey": "WJLm1lMxLmretjcMmGhqRy",
+  "note": "Interim layout read via Figma MCP; run tools/figma-sync.mjs for images and all pages"
+ },
+ "pages": [
+  {
+   "id": "0:1",
+   "name": "Cover",
+   "kind": "canvas"
+  },
+  {
+   "id": "127:345",
+   "name": "▶ Case presentation",
+   "kind": "presentation",
+   "nodes": [
+    {
+     "id": "128:1930",
+     "name": "J1 · 1/5 · Only offers worth your time",
+     "type": "frame",
+     "x": 0,
+     "y": 1300,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/128-1930",
+     "scale": 2
+    },
+    {
+     "id": "128:2244",
+     "name": "J1 · 2/5 · The real rate, not the posted one",
+     "type": "frame",
+     "x": 2020,
+     "y": 1300,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/128-2244",
+     "scale": 2
+    },
+    {
+     "id": "128:2580",
+     "name": "J1 · 3/5 · Know your leverage before you ask",
+     "type": "frame",
+     "x": 4040,
+     "y": 1300,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/128-2580",
+     "scale": 2
+    },
+    {
+     "id": "128:2896",
+     "name": "J1 · 4/5 · Approve once. The agent negotiates.",
+     "type": "frame",
+     "x": 6060,
+     "y": 1300,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/128-2896",
+     "scale": 2
+    },
+    {
+     "id": "128:3139",
+     "name": "J1 · 5/5 · Sent. Now it’s the agent’s job.",
+     "type": "frame",
+     "x": 8080,
+     "y": 1300,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/128-3139",
+     "scale": 2
+    },
+    {
+     "id": "129:1915",
+     "name": "J2 · 1/6 · Negotiation, translated",
+     "type": "frame",
+     "x": 0,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-1915",
+     "scale": 2
+    },
+    {
+     "id": "129:2160",
+     "name": "J2 · 2/6 · A term sheet a human can read",
+     "type": "frame",
+     "x": 2020,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-2160",
+     "scale": 2
+    },
+    {
+     "id": "129:2434",
+     "name": "J2 · 3/6 · Signed in a glance",
+     "type": "frame",
+     "x": 4040,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-2434",
+     "scale": 2
+    },
+    {
+     "id": "129:2687",
+     "name": "J2 · 4/6 · Booked, and the next steps are moving",
+     "type": "frame",
+     "x": 6060,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-2687",
+     "scale": 2
+    },
+    {
+     "id": "129:2842",
+     "name": "J2 · 5/6 · Credentialing without the chase",
+     "type": "frame",
+     "x": 8080,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-2842",
+     "scale": 2
+    },
+    {
+     "id": "129:3028",
+     "name": "J2 · 6/6 · All your work, one calendar",
+     "type": "frame",
+     "x": 10100,
+     "y": 2600,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/129-3028",
+     "scale": 2
+    },
+    {
+     "id": "130:3433",
+     "name": "J3 · 1/5 · One inbox, agent included",
+     "type": "frame",
+     "x": 0,
+     "y": 3900,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/130-3433",
+     "scale": 2
+    },
+    {
+     "id": "130:3605",
+     "name": "J3 · 2/5 · Ask in plain language",
+     "type": "frame",
+     "x": 2020,
+     "y": 3900,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/130-3605",
+     "scale": 2
+    },
+    {
+     "id": "130:3788",
+     "name": "J3 · 3/5 · The agent works in the open",
+     "type": "frame",
+     "x": 4040,
+     "y": 3900,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/130-3788",
+     "scale": 2
+    },
+    {
+     "id": "130:3927",
+     "name": "J3 · 4/5 · Facilities talk to Maya, not around her",
+     "type": "frame",
+     "x": 6060,
+     "y": 3900,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/130-3927",
+     "scale": 2
+    },
+    {
+     "id": "130:4070",
+     "name": "J3 · 5/5 · Documents shared on purpose",
+     "type": "frame",
+     "x": 8080,
+     "y": 3900,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/130-4070",
+     "scale": 2
+    },
+    {
+     "id": "132:4674",
+     "name": "Overview · Start here",
+     "type": "frame",
+     "x": 0,
+     "y": 0,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/132-4674",
+     "scale": 2
+    },
+    {
+     "id": "255:6204",
+     "name": "Row label · Start here — press Present",
+     "type": "text",
+     "x": 0,
+     "y": -90,
+     "w": 618,
+     "h": 56,
+     "text": "Start here — press Present",
+     "fontSize": 48
+    },
+    {
+     "id": "255:6205",
+     "name": "Row label · Discover",
+     "type": "text",
+     "x": 0,
+     "y": 1210,
+     "w": 204,
+     "h": 56,
+     "text": "Discover",
+     "fontSize": 48
+    },
+    {
+     "id": "255:6206",
+     "name": "Row label · Booking",
+     "type": "text",
+     "x": 0,
+     "y": 2510,
+     "w": 188,
+     "h": 56,
+     "text": "Booking",
+     "fontSize": 48
+    },
+    {
+     "id": "255:6207",
+     "name": "Row label · Messaging",
+     "type": "text",
+     "x": 0,
+     "y": 3810,
+     "w": 258,
+     "h": 56,
+     "text": "Messaging",
+     "fontSize": 48
+    }
+   ],
+   "flows": [
+    {
+     "name": "Rounds — case presentation",
+     "start": "132:4674"
+    },
+    {
+     "name": "Discover",
+     "start": "128:1930"
+    },
+    {
+     "name": "Booking",
+     "start": "129:1915"
+    },
+    {
+     "name": "Messaging",
+     "start": "130:3433"
+    }
+   ],
+   "links": [
+    {
+     "from": "128:1930",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "128:1930",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "128:1930",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "128:1930",
+     "to": "132:4674",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      116,
+      40
+     ]
+    },
+    {
+     "from": "128:1930",
+     "to": "128:2244",
+     "label": "Next",
+     "rect": [
+      224,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "128:1930",
+     "to": "128:2244",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      475,
+      304,
+      382
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "128:1930",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "128:2580",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "128:2580",
+     "label": "Hotspot",
+     "rect": [
+      1390,
+      670,
+      186,
+      130
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "128:2244",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "128:2896",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "128:2896",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      916,
+      372,
+      59
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "128:2580",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "128:3139",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "128:3139",
+     "label": "Hotspot",
+     "rect": [
+      1393,
+      916,
+      183,
+      59
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "128:2896",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "132:4674",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      114,
+      40
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "132:4674",
+     "label": "Hotspot",
+     "rect": [
+      1393,
+      916,
+      183,
+      59
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "132:4674",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      116,
+      40
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "129:2160",
+     "label": "Next",
+     "rect": [
+      224,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "129:1915",
+     "to": "129:2160",
+     "label": "Hotspot",
+     "rect": [
+      1393,
+      916,
+      183,
+      59
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "129:1915",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "129:2434",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "129:2434",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      916,
+      372,
+      59
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "129:2160",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "129:2687",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "129:2687",
+     "label": "Hotspot",
+     "rect": [
+      1281,
+      490,
+      220,
+      170
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "129:2434",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "129:2842",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "129:2842",
+     "label": "Hotspot",
+     "rect": [
+      1393,
+      916,
+      183,
+      59
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "129:2687",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "129:3028",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "129:3028",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      916,
+      372,
+      59
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "129:2842",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "132:4674",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      114,
+      40
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "132:4674",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      313,
+      372,
+      148
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "132:4674",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      116,
+      40
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "130:3605",
+     "label": "Next",
+     "rect": [
+      224,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "130:3433",
+     "to": "130:3605",
+     "label": "Hotspot",
+     "rect": [
+      1205,
+      316,
+      371,
+      97
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "130:3433",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "130:3788",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "130:3788",
+     "label": "Hotspot",
+     "rect": [
+      1525,
+      919,
+      51,
+      51
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "130:3605",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "130:3927",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "130:3927",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      361,
+      264,
+      91
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "130:3788",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "130:4070",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      63,
+      40
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "130:4070",
+     "label": "Hotspot",
+     "rect": [
+      1204,
+      380,
+      264,
+      130
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "132:4674",
+     "label": "Tab · All journeys",
+     "rect": [
+      750,
+      44,
+      112,
+      36
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "130:3927",
+     "label": "Back",
+     "rect": [
+      96,
+      910,
+      69,
+      40
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "132:4674",
+     "label": "Next",
+     "rect": [
+      177,
+      910,
+      114,
+      40
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "132:4674",
+     "label": "Hotspot",
+     "rect": [
+      1393,
+      621,
+      183,
+      47
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      868,
+      44,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "128:1930",
+     "label": "Card · Discover",
+     "rect": [
+      96,
+      336,
+      560,
+      552
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "129:1915",
+     "label": "Card · Booking",
+     "rect": [
+      680,
+      336,
+      560,
+      552
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "130:3433",
+     "label": "Card · Messaging",
+     "rect": [
+      1264,
+      336,
+      560,
+      552
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
+      36
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      967,
+      44,
+      87,
+      36
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1062,
+      44,
+      108,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3:2",
+   "name": "Research & Strategy",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:3",
+   "name": "———",
+   "kind": "divider"
+  },
+  {
+   "id": "3:4",
+   "name": "Style guide",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:5",
+   "name": "Icons",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:6",
+   "name": "Components",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:7",
+   "name": "———",
+   "kind": "divider"
+  },
+  {
+   "id": "3:8",
+   "name": "01 Onboarding & Home",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:10",
+   "name": "02 Offer & Negotiation",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:13",
+   "name": "03 Credentialing & Assignments",
+   "kind": "canvas"
+  },
+  {
+   "id": "3:15",
+   "name": "04 Money, Profile & Messages",
+   "kind": "canvas"
+  }
+ ]
+}

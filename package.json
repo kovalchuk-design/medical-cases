@@ -1,0 +1,14 @@
+{
+  "name": "medical-cases",
+  "private": true,
+  "type": "module",
+  "description": "Case Studio: Figma-like workspace for healthcare portfolio cases",
+  "scripts": {
+    "dev": "node tools/dev-server.mjs",
+    "sync": "node tools/figma-sync.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "undici": "^8.12.4"
+  }
+}

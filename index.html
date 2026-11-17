@@ -37,7 +37,7 @@
         var cover = c.cover
           ? '<img src="' + esc(c.cover) + '" alt="" loading="lazy">'
           : '<div class="shell-ph" aria-hidden="true"><span class="shell-ph-n">' + esc(c.n) + '</span><span class="shell-ph-t">' + esc(c.title) + '</span></div>';
-        return '<li data-status="' + c.status + '"><a class="shell-card" href="cases/' + esc(c.slug) + '/">' +
+        return '<li data-status="' + c.status + '"><a class="shell-card" href="' + (c.studio ? 'studio/?case=' + esc(c.slug) : 'cases/' + esc(c.slug) + '/') + '">' +
           '<div class="shell-cover" style="--accent:' + esc(c.accent) + '">' + cover + '</div>' +
           '<div class="shell-body">' +
             '<div class="shell-row"><h2 class="shell-name"><span class="shell-num">' + esc(c.n) + '</span>' + esc(c.title) + '</h2>' +

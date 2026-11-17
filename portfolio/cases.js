@@ -3,6 +3,7 @@
 // status: "ready" (case finished in Figma) · "wip" (in progress) · "planned"
 // cover: path relative to the site root, or null → a styled placeholder is shown.
 // accent: placeholder colour only; each case page uses its own tokens.
+// studio: true → the card opens Case Studio (needs cases/<slug>/manifest.json); otherwise the stub page.
 window.CASES = [
   {
     n: "01", slug: "01-rosterline", title: "Rosterline",
@@ -76,6 +77,6 @@ window.CASES = [
     tags: ["Healthcare staffing", "Mobile app"],
     platform: "iOS 26 · 157 screens", status: "ready",
     figma: "https://www.figma.com/design/WJLm1lMxLmretjcMmGhqRy",
-    cover: null, accent: "#1E3A5F"
+    cover: null, accent: "#1E3A5F", studio: true
   }
 ];
