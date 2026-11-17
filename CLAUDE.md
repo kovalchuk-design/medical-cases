@@ -31,13 +31,13 @@ Needs a session on the **`medical-cases`** cloud environment with hosts `api.fig
 | 01 Rosterline | 01-rosterline | Xpl0Fa7f8VpRiwWe2F6znZ | not synced |
 | 02 Attest | 02-attest | 36fjAO68F9iPxaKCT7K50i | not synced |
 | 03 VisitReady | 03-visitready | YxaZkKeULhsAPNH6qI1GjX | not synced; old hand-made page in `cases/03-visitready/` (replace with studio after sync) |
-| 11 Rounds | 11-rounds | WJLm1lMxLmretjcMmGhqRy | interim manifest (presentation layout + links, no images) — run sync |
+| 11 Rounds | 11-rounds | WJLm1lMxLmretjcMmGhqRy | synced (10 pages, 236 nodes, 236 images; cover set) |
 
 After a sync: set `cover` and `studio: true` for the case in `portfolio/cases.js`, make `cases/<slug>/index.html` redirect to the studio (see `cases/11-rounds/index.html`).
 
 ## Next steps (plan stages)
 
-1. Sync 11 Rounds with images → verify every page against Figma (frame counts per page, presentation path Overview → J1…J3).
+1. ~~Sync 11 Rounds with images~~ done; still to verify every page against Figma (frame counts per page).
 2. Sync 01, 02, 03; real covers on the index.
 3. Code-authored cases: `studio/frame-html.js` (live iframes, already supported in `canvas.js` via node `html`), `tools/thumbs.mjs`, auto Style guide / Icons / Components from `tokens.css`, `cases/_template/`; demo with one VisitReady screen.
 4. Clean up: old VisitReady page and stubs replaced by the studio; update README.

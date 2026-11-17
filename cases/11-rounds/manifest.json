@@ -4,13 +4,40 @@
  "source": {
   "type": "figma",
   "fileKey": "WJLm1lMxLmretjcMmGhqRy",
-  "note": "Interim layout read via Figma MCP; run tools/figma-sync.mjs for images and all pages"
+  "fileName": "Rounds — AI agent for clinicians",
+  "version": "2422759814405745472",
+  "lastModified": "2026-11-17T09:10:33Z",
+  "syncedAt": "2026-11-17T14:34:25.290Z"
  },
  "pages": [
   {
    "id": "0:1",
    "name": "Cover",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "28:1995",
+     "name": "Cover · Rounds · 1920×1080",
+     "type": "frame",
+     "x": 0,
+     "y": 0,
+     "w": 1920,
+     "h": 1080,
+     "img": "img/28-1995",
+     "scale": 2
+    },
+    {
+     "id": "257:616",
+     "name": "Cover · Rounds · 1600×1200 (export)",
+     "type": "frame",
+     "x": 2040,
+     "y": 0,
+     "w": 1600,
+     "h": 1200,
+     "img": "img/257-616",
+     "scale": 2
+    }
+   ]
   },
   {
    "id": "127:345",
@@ -212,6 +239,8 @@
      "y": -90,
      "w": 618,
      "h": 56,
+     "img": "img/255-6204",
+     "scale": 2,
      "text": "Start here — press Present",
      "fontSize": 48
     },
@@ -223,6 +252,8 @@
      "y": 1210,
      "w": 204,
      "h": 56,
+     "img": "img/255-6205",
+     "scale": 2,
      "text": "Discover",
      "fontSize": 48
     },
@@ -234,6 +265,8 @@
      "y": 2510,
      "w": 188,
      "h": 56,
+     "img": "img/255-6206",
+     "scale": 2,
      "text": "Booking",
      "fontSize": 48
     },
@@ -245,6 +278,8 @@
      "y": 3810,
      "w": 258,
      "h": 56,
+     "img": "img/255-6207",
+     "scale": 2,
      "text": "Messaging",
      "fontSize": 48
     }
@@ -268,6 +303,17 @@
     }
    ],
    "links": [
+    {
+     "from": "128:1930",
+     "to": "128:2244",
+     "label": "J1 · 1/5 · Only offers worth your time",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
     {
      "from": "128:1930",
      "to": "132:4674",
@@ -336,12 +382,34 @@
     },
     {
      "from": "128:2244",
+     "to": "128:2580",
+     "label": "J1 · 2/5 · The real rate, not the posted one",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "128:2244",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
       44,
       112,
+      36
+     ]
+    },
+    {
+     "from": "128:2244",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
       36
      ]
     },
@@ -402,12 +470,34 @@
     },
     {
      "from": "128:2580",
+     "to": "128:2896",
+     "label": "J1 · 3/5 · Know your leverage before you ask",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "128:2580",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
       44,
       112,
+      36
+     ]
+    },
+    {
+     "from": "128:2580",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
       36
      ]
     },
@@ -468,12 +558,34 @@
     },
     {
      "from": "128:2896",
+     "to": "128:3139",
+     "label": "J1 · 4/5 · Approve once. The agent negotiates.",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "128:2896",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
       44,
       112,
+      36
+     ]
+    },
+    {
+     "from": "128:2896",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
       36
      ]
     },
@@ -535,11 +647,33 @@
     {
      "from": "128:3139",
      "to": "132:4674",
+     "label": "J1 · 5/5 · Sent. Now it’s the agent’s job.",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
       44,
       112,
+      36
+     ]
+    },
+    {
+     "from": "128:3139",
+     "to": "128:1930",
+     "label": "Tab · Discover",
+     "rect": [
+      870,
+      44,
+      89,
       36
      ]
     },
@@ -600,6 +734,17 @@
     },
     {
      "from": "129:1915",
+     "to": "129:2160",
+     "label": "J2 · 1/6 · Negotiation, translated",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:1915",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -616,7 +761,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -666,6 +811,17 @@
     },
     {
      "from": "129:2160",
+     "to": "129:2434",
+     "label": "J2 · 2/6 · A term sheet a human can read",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:2160",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -682,7 +838,18 @@
      "rect": [
       870,
       44,
-      89,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "129:2160",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      969,
+      44,
+      85,
       36
      ]
     },
@@ -732,6 +899,17 @@
     },
     {
      "from": "129:2434",
+     "to": "129:2687",
+     "label": "J2 · 3/6 · Signed in a glance",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:2434",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -748,7 +926,18 @@
      "rect": [
       870,
       44,
-      89,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "129:2434",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      969,
+      44,
+      85,
       36
      ]
     },
@@ -798,6 +987,17 @@
     },
     {
      "from": "129:2687",
+     "to": "129:2842",
+     "label": "J2 · 4/6 · Booked, and the next steps are moving",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:2687",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -814,7 +1014,18 @@
      "rect": [
       870,
       44,
-      89,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "129:2687",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      969,
+      44,
+      85,
       36
      ]
     },
@@ -864,6 +1075,17 @@
     },
     {
      "from": "129:2842",
+     "to": "129:3028",
+     "label": "J2 · 5/6 · Credentialing without the chase",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:2842",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -880,7 +1102,18 @@
      "rect": [
       870,
       44,
-      89,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "129:2842",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      969,
+      44,
+      85,
       36
      ]
     },
@@ -931,6 +1164,17 @@
     {
      "from": "129:3028",
      "to": "132:4674",
+     "label": "J2 · 6/6 · All your work, one calendar",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
@@ -946,7 +1190,18 @@
      "rect": [
       870,
       44,
-      89,
+      91,
+      36
+     ]
+    },
+    {
+     "from": "129:3028",
+     "to": "129:1915",
+     "label": "Tab · Booking",
+     "rect": [
+      969,
+      44,
+      85,
       36
      ]
     },
@@ -996,6 +1251,17 @@
     },
     {
      "from": "130:3433",
+     "to": "130:3605",
+     "label": "J3 · 1/5 · One inbox, agent included",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "130:3433",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -1012,7 +1278,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -1021,7 +1287,7 @@
      "to": "129:1915",
      "label": "Tab · Booking",
      "rect": [
-      967,
+      969,
       44,
       87,
       36
@@ -1062,6 +1328,17 @@
     },
     {
      "from": "130:3605",
+     "to": "130:3788",
+     "label": "J3 · 2/5 · Ask in plain language",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "130:3605",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -1078,7 +1355,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -1087,9 +1364,20 @@
      "to": "129:1915",
      "label": "Tab · Booking",
      "rect": [
-      967,
+      969,
       44,
       87,
+      36
+     ]
+    },
+    {
+     "from": "130:3605",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1064,
+      44,
+      106,
       36
      ]
     },
@@ -1128,6 +1416,17 @@
     },
     {
      "from": "130:3788",
+     "to": "130:3927",
+     "label": "J3 · 3/5 · The agent works in the open",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "130:3788",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -1144,7 +1443,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -1153,9 +1452,20 @@
      "to": "129:1915",
      "label": "Tab · Booking",
      "rect": [
-      967,
+      969,
       44,
       87,
+      36
+     ]
+    },
+    {
+     "from": "130:3788",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1064,
+      44,
+      106,
       36
      ]
     },
@@ -1194,6 +1504,17 @@
     },
     {
      "from": "130:3927",
+     "to": "130:4070",
+     "label": "J3 · 4/5 · Facilities talk to Maya, not around her",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "130:3927",
      "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
@@ -1210,7 +1531,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -1219,9 +1540,20 @@
      "to": "129:1915",
      "label": "Tab · Booking",
      "rect": [
-      967,
+      969,
       44,
       87,
+      36
+     ]
+    },
+    {
+     "from": "130:3927",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1064,
+      44,
+      106,
       36
      ]
     },
@@ -1261,6 +1593,17 @@
     {
      "from": "130:4070",
      "to": "132:4674",
+     "label": "J3 · 5/5 · Documents shared on purpose",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "132:4674",
      "label": "Tab · All journeys",
      "rect": [
       750,
@@ -1276,7 +1619,7 @@
      "rect": [
       870,
       44,
-      89,
+      91,
       36
      ]
     },
@@ -1285,9 +1628,20 @@
      "to": "129:1915",
      "label": "Tab · Booking",
      "rect": [
-      967,
+      969,
       44,
       87,
+      36
+     ]
+    },
+    {
+     "from": "130:4070",
+     "to": "130:3433",
+     "label": "Tab · Messaging",
+     "rect": [
+      1064,
+      44,
+      106,
       36
      ]
     },
@@ -1322,6 +1676,17 @@
       621,
       183,
       47
+     ]
+    },
+    {
+     "from": "132:4674",
+     "to": "128:1930",
+     "label": "Overview · Start here",
+     "rect": [
+      0,
+      0,
+      1920,
+      1080
      ]
     },
     {
@@ -1389,156 +1754,206 @@
       560,
       552
      ]
-    },
-    {
-     "from": "128:2244",
-     "to": "128:1930",
-     "label": "Tab · Discover",
-     "rect": [
-      870,
-      44,
-      89,
-      36
-     ]
-    },
-    {
-     "from": "128:2580",
-     "to": "128:1930",
-     "label": "Tab · Discover",
-     "rect": [
-      870,
-      44,
-      89,
-      36
-     ]
-    },
-    {
-     "from": "128:2896",
-     "to": "128:1930",
-     "label": "Tab · Discover",
-     "rect": [
-      870,
-      44,
-      89,
-      36
-     ]
-    },
-    {
-     "from": "128:3139",
-     "to": "128:1930",
-     "label": "Tab · Discover",
-     "rect": [
-      870,
-      44,
-      89,
-      36
-     ]
-    },
-    {
-     "from": "129:2160",
-     "to": "129:1915",
-     "label": "Tab · Booking",
-     "rect": [
-      967,
-      44,
-      87,
-      36
-     ]
-    },
-    {
-     "from": "129:2434",
-     "to": "129:1915",
-     "label": "Tab · Booking",
-     "rect": [
-      967,
-      44,
-      87,
-      36
-     ]
-    },
-    {
-     "from": "129:2687",
-     "to": "129:1915",
-     "label": "Tab · Booking",
-     "rect": [
-      967,
-      44,
-      87,
-      36
-     ]
-    },
-    {
-     "from": "129:2842",
-     "to": "129:1915",
-     "label": "Tab · Booking",
-     "rect": [
-      967,
-      44,
-      87,
-      36
-     ]
-    },
-    {
-     "from": "129:3028",
-     "to": "129:1915",
-     "label": "Tab · Booking",
-     "rect": [
-      967,
-      44,
-      87,
-      36
-     ]
-    },
-    {
-     "from": "130:3605",
-     "to": "130:3433",
-     "label": "Tab · Messaging",
-     "rect": [
-      1062,
-      44,
-      108,
-      36
-     ]
-    },
-    {
-     "from": "130:3788",
-     "to": "130:3433",
-     "label": "Tab · Messaging",
-     "rect": [
-      1062,
-      44,
-      108,
-      36
-     ]
-    },
-    {
-     "from": "130:3927",
-     "to": "130:3433",
-     "label": "Tab · Messaging",
-     "rect": [
-      1062,
-      44,
-      108,
-      36
-     ]
-    },
-    {
-     "from": "130:4070",
-     "to": "130:3433",
-     "label": "Tab · Messaging",
-     "rect": [
-      1062,
-      44,
-      108,
-      36
-     ]
     }
    ]
   },
   {
    "id": "3:2",
    "name": "Research & Strategy",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "133:459",
+     "name": "Research & Strategy",
+     "type": "frame",
+     "x": 0,
+     "y": 0,
+     "w": 1600,
+     "h": 10319,
+     "img": "img/133-459",
+     "scale": 1.39
+    },
+    {
+     "id": "247:374",
+     "name": "Section · hero",
+     "type": "frame",
+     "x": 64,
+     "y": 64,
+     "w": 1472,
+     "h": 648,
+     "img": "img/247-374",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "247:391",
+     "name": "Section · brief",
+     "type": "frame",
+     "x": 64,
+     "y": 776,
+     "w": 1472,
+     "h": 620,
+     "img": "img/247-391",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "247:416",
+     "name": "Section · process",
+     "type": "frame",
+     "x": 64,
+     "y": 1460,
+     "w": 1472,
+     "h": 318,
+     "img": "img/247-416",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "247:443",
+     "name": "Section · market",
+     "type": "frame",
+     "x": 64,
+     "y": 1842,
+     "w": 1472,
+     "h": 270,
+     "img": "img/247-443",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "247:466",
+     "name": "Section · signals",
+     "type": "frame",
+     "x": 64,
+     "y": 2176,
+     "w": 1472,
+     "h": 738,
+     "img": "img/247-466",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "248:374",
+     "name": "Section · landscape",
+     "type": "frame",
+     "x": 64,
+     "y": 2978,
+     "w": 1472,
+     "h": 482,
+     "img": "img/248-374",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "248:431",
+     "name": "Section · problems",
+     "type": "frame",
+     "x": 64,
+     "y": 3524,
+     "w": 1472,
+     "h": 736,
+     "img": "img/248-431",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "248:535",
+     "name": "Section · people",
+     "type": "frame",
+     "x": 64,
+     "y": 4324,
+     "w": 1472,
+     "h": 641,
+     "img": "img/248-535",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "248:631",
+     "name": "Section · journey",
+     "type": "frame",
+     "x": 64,
+     "y": 5029,
+     "w": 1472,
+     "h": 484,
+     "img": "img/248-631",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:374",
+     "name": "Section · opportunity",
+     "type": "frame",
+     "x": 64,
+     "y": 5577,
+     "w": 1472,
+     "h": 732,
+     "img": "img/249-374",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:446",
+     "name": "Section · validation",
+     "type": "frame",
+     "x": 64,
+     "y": 6373,
+     "w": 1472,
+     "h": 790,
+     "img": "img/249-446",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:518",
+     "name": "Section · metrics",
+     "type": "frame",
+     "x": 64,
+     "y": 7227,
+     "w": 1472,
+     "h": 972,
+     "img": "img/249-518",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:601",
+     "name": "Section · business",
+     "type": "frame",
+     "x": 64,
+     "y": 8263,
+     "w": 1472,
+     "h": 497,
+     "img": "img/249-601",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:649",
+     "name": "Section · transfer",
+     "type": "frame",
+     "x": 64,
+     "y": 8824,
+     "w": 1472,
+     "h": 945,
+     "img": "img/249-649",
+     "scale": 2,
+     "parent": "133:459"
+    },
+    {
+     "id": "249:781",
+     "name": "Section · sources",
+     "type": "frame",
+     "x": 64,
+     "y": 9833,
+     "w": 1472,
+     "h": 422,
+     "img": "img/249-781",
+     "scale": 2,
+     "parent": "133:459"
+    }
+   ]
   },
   {
    "id": "3:3",
@@ -1548,17 +1963,243 @@
   {
    "id": "3:4",
    "name": "Style guide",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "96:455",
+     "name": "SG · Style guide",
+     "type": "frame",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 630,
+     "img": "img/96-455",
+     "scale": 2
+    },
+    {
+     "id": "96:516",
+     "name": "SG · Brand",
+     "type": "frame",
+     "x": 0,
+     "y": 750,
+     "w": 1440,
+     "h": 872,
+     "img": "img/96-516",
+     "scale": 2
+    },
+    {
+     "id": "97:403",
+     "name": "SG · Colour",
+     "type": "frame",
+     "x": 0,
+     "y": 1742,
+     "w": 1440,
+     "h": 3418,
+     "img": "img/97-403",
+     "scale": 2
+    },
+    {
+     "id": "98:403",
+     "name": "SG · Typography",
+     "type": "frame",
+     "x": 0,
+     "y": 5280,
+     "w": 1440,
+     "h": 2106,
+     "img": "img/98-403",
+     "scale": 2
+    },
+    {
+     "id": "98:565",
+     "name": "SG · Spacing & layout",
+     "type": "frame",
+     "x": 0,
+     "y": 7506,
+     "w": 1440,
+     "h": 1504,
+     "img": "img/98-565",
+     "scale": 2
+    },
+    {
+     "id": "99:403",
+     "name": "SG · Radius, elevation & materials",
+     "type": "frame",
+     "x": 0,
+     "y": 9130,
+     "w": 1440,
+     "h": 1152,
+     "img": "img/99-403",
+     "scale": 2
+    },
+    {
+     "id": "99:613",
+     "name": "SG · Iconography",
+     "type": "frame",
+     "x": 0,
+     "y": 10402,
+     "w": 1440,
+     "h": 1447,
+     "img": "img/99-613",
+     "scale": 2
+    },
+    {
+     "id": "100:520",
+     "name": "SG · Components",
+     "type": "frame",
+     "x": 0,
+     "y": 11969,
+     "w": 1440,
+     "h": 2722,
+     "img": "img/100-520",
+     "scale": 2
+    },
+    {
+     "id": "101:768",
+     "name": "SG · Content",
+     "type": "frame",
+     "x": 0,
+     "y": 14803,
+     "w": 1440,
+     "h": 788,
+     "img": "img/101-768",
+     "scale": 2
+    },
+    {
+     "id": "101:818",
+     "name": "SG · Exceptions",
+     "type": "frame",
+     "x": 0,
+     "y": 15711,
+     "w": 1440,
+     "h": 682,
+     "img": "img/101-818",
+     "scale": 2
+    }
+   ]
   },
   {
    "id": "3:5",
    "name": "Icons",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "4:2",
+     "name": "Icons",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "h": 560,
+     "img": "img/4-2",
+     "scale": 2
+    }
+   ]
   },
   {
    "id": "3:6",
    "name": "Components",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "5:2",
+     "name": "Brand",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 835,
+     "h": 240,
+     "img": "img/5-2",
+     "scale": 2
+    },
+    {
+     "id": "8:5",
+     "name": "Actions",
+     "type": "section",
+     "x": 0,
+     "y": 336,
+     "w": 1608,
+     "h": 652,
+     "img": "img/8-5",
+     "scale": 2
+    },
+    {
+     "id": "9:13",
+     "name": "Content",
+     "type": "section",
+     "x": 0,
+     "y": 1084,
+     "w": 1577,
+     "h": 792,
+     "img": "img/9-13",
+     "scale": 2
+    },
+    {
+     "id": "10:34",
+     "name": "Offer & negotiation",
+     "type": "section",
+     "x": 0,
+     "y": 1972,
+     "w": 1836,
+     "h": 1080,
+     "img": "img/10-34",
+     "scale": 2
+    },
+    {
+     "id": "11:76",
+     "name": "Navigation & feedback",
+     "type": "section",
+     "x": 0,
+     "y": 3148,
+     "w": 1858,
+     "h": 1150,
+     "img": "img/11-76",
+     "scale": 2
+    },
+    {
+     "id": "12:145",
+     "name": "Workflow & data",
+     "type": "section",
+     "x": 0,
+     "y": 4394,
+     "w": 1865,
+     "h": 1052,
+     "img": "img/12-145",
+     "scale": 2
+    },
+    {
+     "id": "33:418",
+     "name": "Photo library",
+     "type": "section",
+     "x": 0,
+     "y": 5542,
+     "w": 1776,
+     "h": 1520,
+     "img": "img/33-418",
+     "scale": 2
+    },
+    {
+     "id": "104:484",
+     "name": "States & feedback",
+     "type": "section",
+     "x": 0,
+     "y": 7158,
+     "w": 1912,
+     "h": 1554,
+     "img": "img/104-484",
+     "scale": 2
+    },
+    {
+     "id": "251:2158",
+     "name": "Presentation",
+     "type": "section",
+     "x": 0,
+     "y": 8808,
+     "w": 2016,
+     "h": 1208,
+     "img": "img/251-2158",
+     "scale": 2
+    }
+   ]
   },
   {
    "id": "3:7",
@@ -1568,22 +2209,2145 @@
   {
    "id": "3:8",
    "name": "01 Onboarding & Home",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "13:412",
+     "name": "1.1 Onboarding",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 7404,
+     "h": 5292,
+     "img": "img/13-412",
+     "scale": 0.9
+    },
+    {
+     "id": "13:413",
+     "name": "1.1.1 Splash",
+     "type": "frame",
+     "x": 120,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/13-413",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "13:431",
+     "name": "1.1.2 Welcome",
+     "type": "frame",
+     "x": 822,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/13-431",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "13:491",
+     "name": "1.1.3 Sign up",
+     "type": "frame",
+     "x": 1524,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/13-491",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "13:595",
+     "name": "1.1.4 Verify NPI",
+     "type": "frame",
+     "x": 2928,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/13-595",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "14:360",
+     "name": "1.1.5 Credentials found",
+     "type": "frame",
+     "x": 3630,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/14-360",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "14:488",
+     "name": "1.1.6 Preferences",
+     "type": "frame",
+     "x": 4332,
+     "y": 680,
+     "w": 402,
+     "h": 930,
+     "img": "img/14-488",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "14:617",
+     "name": "1.1.7 Agent autonomy",
+     "type": "frame",
+     "x": 5034,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/14-617",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "14:707",
+     "name": "1.1.8 All set",
+     "type": "frame",
+     "x": 6438,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/14-707",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:821",
+     "name": "1.1.9 Sign in",
+     "type": "frame",
+     "x": 822,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-821",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:913",
+     "name": "1.1.10 Sign in · Wrong password",
+     "type": "frame",
+     "x": 822,
+     "y": 3264,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-913",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:988",
+     "name": "1.1.11 Sign in · Face ID",
+     "type": "frame",
+     "x": 2226,
+     "y": 3264,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-988",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:1003",
+     "name": "1.1.12 Reset password · Check email",
+     "type": "frame",
+     "x": 1524,
+     "y": 3264,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-1003",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:1067",
+     "name": "1.1.13 Sign up · Email already used",
+     "type": "frame",
+     "x": 1524,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-1067",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:1152",
+     "name": "1.1.14 Verify email",
+     "type": "frame",
+     "x": 2226,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-1152",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "105:1212",
+     "name": "1.1.15 Verify email · Wrong code",
+     "type": "frame",
+     "x": 2226,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/105-1212",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "106:1162",
+     "name": "1.1.16 NPI not found",
+     "type": "frame",
+     "x": 2928,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/106-1162",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "106:1252",
+     "name": "1.1.17 Enter credentials manually",
+     "type": "frame",
+     "x": 3630,
+     "y": 3264,
+     "w": 402,
+     "h": 874,
+     "img": "img/106-1252",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "106:1348",
+     "name": "1.1.18 Credentials · Expired license",
+     "type": "frame",
+     "x": 3630,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/106-1348",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "106:1458",
+     "name": "1.1.19 Allow notifications",
+     "type": "frame",
+     "x": 5736,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/106-1458",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "106:1496",
+     "name": "1.1.20 Offline",
+     "type": "frame",
+     "x": 4332,
+     "y": 2000,
+     "w": 402,
+     "h": 874,
+     "img": "img/106-1496",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "244:15038",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 120,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-15038",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "246:1104",
+     "name": "1.1.21 Credentials found · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 4298,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1104",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "246:1183",
+     "name": "1.1.22 Agent autonomy · Confirm",
+     "type": "frame",
+     "x": 642,
+     "y": 4298,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1183",
+     "scale": 2,
+     "parent": "13:412"
+    },
+    {
+     "id": "15:190",
+     "name": "1.2 Home",
+     "type": "section",
+     "x": 0,
+     "y": 5692,
+     "w": 5416,
+     "h": 4382,
+     "img": "img/15-190",
+     "scale": 1.16
+    },
+    {
+     "id": "15:191",
+     "name": "1.2.1 Discover",
+     "type": "frame",
+     "x": 1384,
+     "y": 6372,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-191",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "15:384",
+     "name": "1.2.2 Discover · Per diem",
+     "type": "frame",
+     "x": 1384,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-384",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "15:526",
+     "name": "1.2.3 Filtered out",
+     "type": "frame",
+     "x": 2086,
+     "y": 9080,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-526",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "15:683",
+     "name": "1.2.4 Notifications",
+     "type": "frame",
+     "x": 2788,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-683",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "15:770",
+     "name": "1.2.5 Things to do",
+     "type": "frame",
+     "x": 4192,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-770",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "15:859",
+     "name": "1.2.6 Ask Rounds",
+     "type": "frame",
+     "x": 3490,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/15-859",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "43:821",
+     "name": "1.2.7 Discover · No matches yet",
+     "type": "frame",
+     "x": 4894,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/43-821",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1000",
+     "name": "1.2.8 Discover · Loading",
+     "type": "frame",
+     "x": 682,
+     "y": 6372,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1000",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1066",
+     "name": "1.2.9 Discover · Offline",
+     "type": "frame",
+     "x": 682,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1066",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1102",
+     "name": "1.2.10 Filters",
+     "type": "frame",
+     "x": 2086,
+     "y": 7816,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1102",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1236",
+     "name": "1.2.11 Notifications · Empty",
+     "type": "frame",
+     "x": 2788,
+     "y": 9080,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1236",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1295",
+     "name": "1.2.12 Things to do · All done",
+     "type": "frame",
+     "x": 4894,
+     "y": 9080,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1295",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1350",
+     "name": "1.2.13 Ask Rounds · Couldn’t answer",
+     "type": "frame",
+     "x": 4192,
+     "y": 9080,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1350",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "109:1413",
+     "name": "1.2.14 Notifications · Turned off",
+     "type": "frame",
+     "x": 3490,
+     "y": 9080,
+     "w": 402,
+     "h": 874,
+     "img": "img/109-1413",
+     "scale": 2,
+     "parent": "15:190"
+    },
+    {
+     "id": "244:15062",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 5812,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-15062",
+     "scale": 2,
+     "parent": "15:190"
+    }
+   ]
   },
   {
    "id": "3:10",
    "name": "02 Offer & Negotiation",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "17:2",
+     "name": "2.1 Offer",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 6000,
+     "h": 6051,
+     "img": "img/17-2",
+     "scale": 0.93
+    },
+    {
+     "id": "17:3",
+     "name": "2.1.1 Offer · Locum",
+     "type": "frame",
+     "x": 2928,
+     "y": 680,
+     "w": 402,
+     "h": 1433,
+     "img": "img/17-3",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:182",
+     "name": "2.1.2 Offer · Agent analysis",
+     "type": "frame",
+     "x": 2928,
+     "y": 2563,
+     "w": 402,
+     "h": 1080,
+     "img": "img/17-182",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:307",
+     "name": "2.1.3 Facility profile",
+     "type": "frame",
+     "x": 3630,
+     "y": 2563,
+     "w": 402,
+     "h": 1031,
+     "img": "img/17-307",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:430",
+     "name": "2.1.4 Facility · Unverified",
+     "type": "frame",
+     "x": 3630,
+     "y": 4023,
+     "w": 402,
+     "h": 874,
+     "img": "img/17-430",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:538",
+     "name": "2.1.5 Full brief",
+     "type": "frame",
+     "x": 4332,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/17-538",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:648",
+     "name": "2.1.6 Decline · Reason",
+     "type": "frame",
+     "x": 5034,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/17-648",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "17:739",
+     "name": "2.1.7 Offer · Declined",
+     "type": "frame",
+     "x": 5034,
+     "y": 4023,
+     "w": 402,
+     "h": 874,
+     "img": "img/17-739",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:983",
+     "name": "2.1.8 Offer · Loading",
+     "type": "frame",
+     "x": 2226,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-983",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:1042",
+     "name": "2.1.9 Offer · Already filled",
+     "type": "frame",
+     "x": 120,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-1042",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:1155",
+     "name": "2.1.10 Offer · Expired",
+     "type": "frame",
+     "x": 822,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-1155",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:1233",
+     "name": "2.1.11 Offer · Schedule conflict",
+     "type": "frame",
+     "x": 1524,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-1233",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:1326",
+     "name": "2.1.12 Offer · Not eligible",
+     "type": "frame",
+     "x": 2226,
+     "y": 2563,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-1326",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "111:1399",
+     "name": "2.1.13 Report facility",
+     "type": "frame",
+     "x": 4332,
+     "y": 4023,
+     "w": 402,
+     "h": 874,
+     "img": "img/111-1399",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "244:18131",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 120,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-18131",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "246:1242",
+     "name": "2.1.14 Full brief · Error",
+     "type": "frame",
+     "x": 120,
+     "y": 5057,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1242",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "246:1307",
+     "name": "2.1.15 Full brief · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 5057,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1307",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "246:1352",
+     "name": "2.1.16 Decline · Confirm",
+     "type": "frame",
+     "x": 1164,
+     "y": 5057,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1352",
+     "scale": 2,
+     "parent": "17:2"
+    },
+    {
+     "id": "18:2",
+     "name": "2.2 I’m interested",
+     "type": "section",
+     "x": 0,
+     "y": 6451,
+     "w": 4596,
+     "h": 5642,
+     "img": "img/18-2",
+     "scale": 1.11
+    },
+    {
+     "id": "18:3",
+     "name": "2.2.1 Review offer · First time",
+     "type": "frame",
+     "x": 822,
+     "y": 7131,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-3",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "18:158",
+     "name": "2.2.2 Ask for changes · Note",
+     "type": "frame",
+     "x": 1524,
+     "y": 8385,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-158",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "18:222",
+     "name": "2.2.3 Review offer · Blocked",
+     "type": "frame",
+     "x": 822,
+     "y": 8385,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-222",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "18:312",
+     "name": "2.2.4 Confirmation · Counter sent",
+     "type": "frame",
+     "x": 2226,
+     "y": 8385,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-312",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "18:368",
+     "name": "2.2.5 Confirmation · Accepted",
+     "type": "frame",
+     "x": 2226,
+     "y": 7131,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-368",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "18:424",
+     "name": "2.2.6 Confirmation · Declined",
+     "type": "frame",
+     "x": 120,
+     "y": 8385,
+     "w": 402,
+     "h": 874,
+     "img": "img/18-424",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "112:685",
+     "name": "2.2.7 Counter-offer · Send failed",
+     "type": "frame",
+     "x": 1524,
+     "y": 9639,
+     "w": 402,
+     "h": 874,
+     "img": "img/112-685",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "112:707",
+     "name": "2.2.8 Accept as-is · Confirm",
+     "type": "frame",
+     "x": 1524,
+     "y": 7131,
+     "w": 402,
+     "h": 874,
+     "img": "img/112-707",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "112:749",
+     "name": "2.2.9 Waiting · No reply yet",
+     "type": "frame",
+     "x": 2928,
+     "y": 9639,
+     "w": 402,
+     "h": 874,
+     "img": "img/112-749",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "112:860",
+     "name": "2.2.10 Withdraw interest · Confirm",
+     "type": "frame",
+     "x": 3630,
+     "y": 9639,
+     "w": 402,
+     "h": 874,
+     "img": "img/112-860",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "112:897",
+     "name": "2.2.11 Facility asked a question",
+     "type": "frame",
+     "x": 2226,
+     "y": 9639,
+     "w": 402,
+     "h": 874,
+     "img": "img/112-897",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "244:18155",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 6571,
+     "w": 1400,
+     "h": 230,
+     "img": "img/244-18155",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "246:1399",
+     "name": "2.2.12 Review offer · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 11099,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1399",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "246:1491",
+     "name": "2.2.13 Review offer · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 11099,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1491",
+     "scale": 2,
+     "parent": "18:2"
+    },
+    {
+     "id": "19:2",
+     "name": "2.3 Negotiation & Term sheet",
+     "type": "section",
+     "x": 0,
+     "y": 12493,
+     "w": 6765,
+     "h": 6635,
+     "img": "img/19-2",
+     "scale": 0.84
+    },
+    {
+     "id": "19:3",
+     "name": "2.3.1 Negotiation · Term sheet",
+     "type": "frame",
+     "x": 2928,
+     "y": 13173,
+     "w": 402,
+     "h": 1727,
+     "img": "img/19-3",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "19:258",
+     "name": "2.3.2 Negotiate your rate",
+     "type": "frame",
+     "x": 822,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/19-258",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "19:388",
+     "name": "2.3.3 Schedule · Amend",
+     "type": "frame",
+     "x": 1524,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/19-388",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "19:469",
+     "name": "2.3.4 Term · Malpractice & tail",
+     "type": "frame",
+     "x": 2226,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/19-469",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "19:581",
+     "name": "2.3.5 Term · Cancellation",
+     "type": "frame",
+     "x": 2928,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/19-581",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "20:484",
+     "name": "2.3.6 Facility response · Round 2",
+     "type": "frame",
+     "x": 3630,
+     "y": 13173,
+     "w": 402,
+     "h": 874,
+     "img": "img/20-484",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "20:626",
+     "name": "2.3.7 Term sheet · Ready to sign",
+     "type": "frame",
+     "x": 4332,
+     "y": 13173,
+     "w": 402,
+     "h": 974,
+     "img": "img/20-626",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "20:771",
+     "name": "2.3.8 Term sheet · Signed",
+     "type": "frame",
+     "x": 5736,
+     "y": 13173,
+     "w": 402,
+     "h": 874,
+     "img": "img/20-771",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "20:840",
+     "name": "2.3.9 Negotiation history",
+     "type": "frame",
+     "x": 120,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/20-840",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "43:1677",
+     "name": "2.3.10 Counter declined",
+     "type": "frame",
+     "x": 3630,
+     "y": 16674,
+     "w": 402,
+     "h": 874,
+     "img": "img/43-1677",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1259",
+     "name": "2.3.11 Sign with Face ID",
+     "type": "frame",
+     "x": 5034,
+     "y": 13173,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1259",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1286",
+     "name": "2.3.12 Face ID not recognised",
+     "type": "frame",
+     "x": 5034,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1286",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1334",
+     "name": "2.3.13 Signing failed",
+     "type": "frame",
+     "x": 5736,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1334",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1362",
+     "name": "2.3.14 Contract differs from term sheet",
+     "type": "frame",
+     "x": 4332,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1362",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1483",
+     "name": "2.3.15 Final round",
+     "type": "frame",
+     "x": 3630,
+     "y": 15410,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1483",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "113:1573",
+     "name": "2.3.16 Offer withdrawn",
+     "type": "frame",
+     "x": 2928,
+     "y": 16674,
+     "w": 402,
+     "h": 874,
+     "img": "img/113-1573",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "244:18179",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 12613,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-18179",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "246:1570",
+     "name": "2.3.17 Facility response · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 18134,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1570",
+     "scale": 2,
+     "parent": "19:2"
+    },
+    {
+     "id": "246:1652",
+     "name": "2.3.18 Facility response · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 18134,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1652",
+     "scale": 2,
+     "parent": "19:2"
+    }
+   ]
   },
   {
    "id": "3:13",
    "name": "03 Credentialing & Assignments",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "21:2",
+     "name": "3.1 Credentialing",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 4757,
+     "h": 5469,
+     "img": "img/21-2",
+     "scale": 1.1
+    },
+    {
+     "id": "21:3",
+     "name": "3.1.1 Credentialing · Tracker",
+     "type": "frame",
+     "x": 927,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/21-3",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "21:133",
+     "name": "3.1.2 Checklist",
+     "type": "frame",
+     "x": 1629,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/21-133",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "21:243",
+     "name": "3.1.3 Upload document",
+     "type": "frame",
+     "x": 2331,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/21-243",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "21:330",
+     "name": "3.1.4 Document verified",
+     "type": "frame",
+     "x": 3735,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/21-330",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "21:400",
+     "name": "3.1.5 Credential wallet",
+     "type": "frame",
+     "x": 927,
+     "y": 1944,
+     "w": 402,
+     "h": 1117,
+     "img": "img/21-400",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "21:602",
+     "name": "3.1.6 License expiring",
+     "type": "frame",
+     "x": 927,
+     "y": 3441,
+     "w": 402,
+     "h": 874,
+     "img": "img/21-602",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:850",
+     "name": "3.1.7 Upload · Reading document",
+     "type": "frame",
+     "x": 3033,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-850",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:927",
+     "name": "3.1.8 Upload · Couldn’t read date",
+     "type": "frame",
+     "x": 3033,
+     "y": 1944,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-927",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:1037",
+     "name": "3.1.9 Upload · File too large",
+     "type": "frame",
+     "x": 2331,
+     "y": 1944,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-1037",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:1054",
+     "name": "3.1.10 Camera access off",
+     "type": "frame",
+     "x": 1629,
+     "y": 1944,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-1054",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:1115",
+     "name": "3.1.11 Credentialing delayed",
+     "type": "frame",
+     "x": 225,
+     "y": 1944,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-1115",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "114:1215",
+     "name": "3.1.12 License expired · Assignments blocked",
+     "type": "frame",
+     "x": 1629,
+     "y": 3441,
+     "w": 402,
+     "h": 874,
+     "img": "img/114-1215",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "244:20063",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 120,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-20063",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "246:1726",
+     "name": "3.1.13 Credentialing · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 4475,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1726",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "246:1802",
+     "name": "3.1.14 Credentialing · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 4475,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1802",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "246:1849",
+     "name": "3.1.15 Upload document · Confirm",
+     "type": "frame",
+     "x": 1164,
+     "y": 4475,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1849",
+     "scale": 2,
+     "parent": "21:2"
+    },
+    {
+     "id": "22:2",
+     "name": "3.2 My assignments",
+     "type": "section",
+     "x": 0,
+     "y": 5869,
+     "w": 4854,
+     "h": 5565,
+     "img": "img/22-2",
+     "scale": 1.08
+    },
+    {
+     "id": "22:3",
+     "name": "3.2.1 Assignments",
+     "type": "frame",
+     "x": 1524,
+     "y": 6549,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-3",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:144",
+     "name": "3.2.2 Calendar",
+     "type": "frame",
+     "x": 1524,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-144",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:320",
+     "name": "3.2.3 Conflict",
+     "type": "frame",
+     "x": 1524,
+     "y": 9406,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-320",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:460",
+     "name": "3.2.4 Assignment · Active",
+     "type": "frame",
+     "x": 2226,
+     "y": 6549,
+     "w": 402,
+     "h": 1213,
+     "img": "img/22-460",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:613",
+     "name": "3.2.5 Submit timesheet",
+     "type": "frame",
+     "x": 2928,
+     "y": 6549,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-613",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:735",
+     "name": "3.2.6 Timesheet submitted",
+     "type": "frame",
+     "x": 3630,
+     "y": 6549,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-735",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "22:790",
+     "name": "3.2.7 Cancelled · Guarantee paid",
+     "type": "frame",
+     "x": 3630,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/22-790",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "115:995",
+     "name": "3.2.8 Assignments · Empty",
+     "type": "frame",
+     "x": 120,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/115-995",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "115:1053",
+     "name": "3.2.9 Assignments · Past",
+     "type": "frame",
+     "x": 822,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/115-1053",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "115:1177",
+     "name": "3.2.10 Check-in · Outside the hospital",
+     "type": "frame",
+     "x": 2226,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/115-1177",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "115:1292",
+     "name": "3.2.11 Timesheet · Changed by facility",
+     "type": "frame",
+     "x": 4332,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/115-1292",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "115:1405",
+     "name": "3.2.12 Cancel assignment · Confirm",
+     "type": "frame",
+     "x": 2928,
+     "y": 8152,
+     "w": 402,
+     "h": 874,
+     "img": "img/115-1405",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "244:20087",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 5989,
+     "w": 1400,
+     "h": 230,
+     "img": "img/244-20087",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "246:1921",
+     "name": "3.2.13 Assignments · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 10440,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-1921",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "246:2040",
+     "name": "3.2.14 Assignments · Error",
+     "type": "frame",
+     "x": 642,
+     "y": 10440,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2040",
+     "scale": 2,
+     "parent": "22:2"
+    },
+    {
+     "id": "246:2155",
+     "name": "3.2.15 Assignments · Offline",
+     "type": "frame",
+     "x": 1164,
+     "y": 10440,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2155",
+     "scale": 2,
+     "parent": "22:2"
+    }
+   ]
   },
   {
    "id": "3:15",
    "name": "04 Money, Profile & Messages",
-   "kind": "canvas"
+   "kind": "canvas",
+   "nodes": [
+    {
+     "id": "24:2",
+     "name": "4.1 Earnings",
+     "type": "section",
+     "x": 0,
+     "y": 0,
+     "w": 4854,
+     "h": 5286,
+     "img": "img/24-2",
+     "scale": 1.11
+    },
+    {
+     "id": "24:3",
+     "name": "4.1.1 Earnings",
+     "type": "frame",
+     "x": 2226,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-3",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:157",
+     "name": "4.1.2 Payments",
+     "type": "frame",
+     "x": 2928,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-157",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:280",
+     "name": "4.1.3 Payment · Sent",
+     "type": "frame",
+     "x": 3630,
+     "y": 680,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-280",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:382",
+     "name": "4.1.4 Payment · Scheduled",
+     "type": "frame",
+     "x": 3630,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-382",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:493",
+     "name": "4.1.5 Payments · Filters",
+     "type": "frame",
+     "x": 2928,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-493",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:597",
+     "name": "4.1.6 Tax set-aside",
+     "type": "frame",
+     "x": 822,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-597",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "24:705",
+     "name": "4.1.7 Payout account",
+     "type": "frame",
+     "x": 2226,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/24-705",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "116:936",
+     "name": "4.1.8 Earnings · First month",
+     "type": "frame",
+     "x": 120,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/116-936",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "116:1033",
+     "name": "4.1.9 Payment · Late",
+     "type": "frame",
+     "x": 4332,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/116-1033",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "116:1134",
+     "name": "4.1.10 Payout failed",
+     "type": "frame",
+     "x": 1524,
+     "y": 2004,
+     "w": 402,
+     "h": 874,
+     "img": "img/116-1134",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "116:1222",
+     "name": "4.1.11 Bank link failed",
+     "type": "frame",
+     "x": 2226,
+     "y": 3258,
+     "w": 402,
+     "h": 874,
+     "img": "img/116-1222",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "116:1282",
+     "name": "4.1.12 Payments · No results",
+     "type": "frame",
+     "x": 2928,
+     "y": 3258,
+     "w": 402,
+     "h": 874,
+     "img": "img/116-1282",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "244:22558",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 120,
+     "w": 1400,
+     "h": 230,
+     "img": "img/244-22558",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "246:2214",
+     "name": "4.1.13 Earnings · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 4292,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2214",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "246:2277",
+     "name": "4.1.14 Earnings · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 4292,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2277",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "246:2327",
+     "name": "4.1.15 Payout account · Confirm",
+     "type": "frame",
+     "x": 1164,
+     "y": 4292,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2327",
+     "scale": 2,
+     "parent": "24:2"
+    },
+    {
+     "id": "25:2",
+     "name": "4.2 Profile & Account",
+     "type": "section",
+     "x": 0,
+     "y": 5686,
+     "w": 5556,
+     "h": 5357,
+     "img": "img/25-2",
+     "scale": 1.03
+    },
+    {
+     "id": "25:3",
+     "name": "4.2.1 Profile",
+     "type": "frame",
+     "x": 2928,
+     "y": 6366,
+     "w": 402,
+     "h": 885,
+     "img": "img/25-3",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:155",
+     "name": "4.2.2 Account",
+     "type": "frame",
+     "x": 3630,
+     "y": 6366,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-155",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:306",
+     "name": "4.2.3 Preferences",
+     "type": "frame",
+     "x": 2928,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-306",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:441",
+     "name": "4.2.4 Agent settings",
+     "type": "frame",
+     "x": 2226,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-441",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:567",
+     "name": "4.2.5 Agent tone",
+     "type": "frame",
+     "x": 2226,
+     "y": 9015,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-567",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:638",
+     "name": "4.2.6 Completed assignments",
+     "type": "frame",
+     "x": 1524,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-638",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:776",
+     "name": "4.2.7 Refer a colleague",
+     "type": "frame",
+     "x": 822,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-776",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:861",
+     "name": "4.2.8 Request a feature",
+     "type": "frame",
+     "x": 120,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-861",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "25:933",
+     "name": "4.2.9 Close account",
+     "type": "frame",
+     "x": 4332,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/25-933",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1126",
+     "name": "4.2.10 Personal details",
+     "type": "frame",
+     "x": 4332,
+     "y": 6366,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1126",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1229",
+     "name": "4.2.11 Change email · Verify",
+     "type": "frame",
+     "x": 5034,
+     "y": 6366,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1229",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1289",
+     "name": "4.2.12 Log out · Confirm",
+     "type": "frame",
+     "x": 3630,
+     "y": 7761,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1289",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1336",
+     "name": "4.2.13 Unsaved changes",
+     "type": "frame",
+     "x": 2928,
+     "y": 9015,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1336",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1376",
+     "name": "4.2.14 Account closed",
+     "type": "frame",
+     "x": 4332,
+     "y": 9015,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1376",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1416",
+     "name": "4.2.15 Feature request · Sent",
+     "type": "frame",
+     "x": 120,
+     "y": 9015,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1416",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "117:1472",
+     "name": "4.2.16 Refer · Invite sent",
+     "type": "frame",
+     "x": 822,
+     "y": 9015,
+     "w": 402,
+     "h": 874,
+     "img": "img/117-1472",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "244:22582",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 5806,
+     "w": 1400,
+     "h": 276,
+     "img": "img/244-22582",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "246:2407",
+     "name": "4.2.17 Account · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 10049,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2407",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "246:2474",
+     "name": "4.2.18 Preferences · Error",
+     "type": "frame",
+     "x": 642,
+     "y": 10049,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2474",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "246:2531",
+     "name": "4.2.19 Preferences · Offline",
+     "type": "frame",
+     "x": 1164,
+     "y": 10049,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2531",
+     "scale": 2,
+     "parent": "25:2"
+    },
+    {
+     "id": "26:2",
+     "name": "4.3 Messages",
+     "type": "section",
+     "x": 0,
+     "y": 11443,
+     "w": 3183,
+     "h": 5286,
+     "img": "img/26-2",
+     "scale": 1.37
+    },
+    {
+     "id": "26:3",
+     "name": "4.3.1 Inbox",
+     "type": "frame",
+     "x": 822,
+     "y": 12123,
+     "w": 402,
+     "h": 874,
+     "img": "img/26-3",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "26:104",
+     "name": "4.3.2 Agent chat",
+     "type": "frame",
+     "x": 1524,
+     "y": 12123,
+     "w": 402,
+     "h": 874,
+     "img": "img/26-104",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "26:227",
+     "name": "4.3.3 Facility thread",
+     "type": "frame",
+     "x": 822,
+     "y": 13447,
+     "w": 402,
+     "h": 874,
+     "img": "img/26-227",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "118:560",
+     "name": "4.3.4 Inbox · Empty",
+     "type": "frame",
+     "x": 120,
+     "y": 13447,
+     "w": 402,
+     "h": 874,
+     "img": "img/118-560",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "118:618",
+     "name": "4.3.5 Message not delivered",
+     "type": "frame",
+     "x": 1524,
+     "y": 13447,
+     "w": 402,
+     "h": 874,
+     "img": "img/118-618",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "118:691",
+     "name": "4.3.6 Agent is working",
+     "type": "frame",
+     "x": 2226,
+     "y": 12123,
+     "w": 402,
+     "h": 874,
+     "img": "img/118-691",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "118:762",
+     "name": "4.3.7 Document requested in thread",
+     "type": "frame",
+     "x": 822,
+     "y": 14701,
+     "w": 402,
+     "h": 874,
+     "img": "img/118-762",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "118:851",
+     "name": "4.3.8 Thread closed",
+     "type": "frame",
+     "x": 120,
+     "y": 14701,
+     "w": 402,
+     "h": 874,
+     "img": "img/118-851",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "244:22606",
+     "name": "Header",
+     "type": "frame",
+     "x": 120,
+     "y": 11563,
+     "w": 1400,
+     "h": 230,
+     "img": "img/244-22606",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "246:2596",
+     "name": "4.3.9 Inbox · Loading",
+     "type": "frame",
+     "x": 120,
+     "y": 15735,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2596",
+     "scale": 2,
+     "parent": "26:2"
+    },
+    {
+     "id": "246:2666",
+     "name": "4.3.10 Inbox · Offline",
+     "type": "frame",
+     "x": 642,
+     "y": 15735,
+     "w": 402,
+     "h": 874,
+     "img": "img/246-2666",
+     "scale": 2,
+     "parent": "26:2"
+    }
+   ]
   }
- ]
+ ],
+ "cover": "cases/11-rounds/img/257-616@1x.webp"
 }

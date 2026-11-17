@@ -77,6 +77,6 @@ window.CASES = [
     tags: ["Healthcare staffing", "Mobile app"],
     platform: "iOS 26 · 157 screens", status: "ready",
     figma: "https://www.figma.com/design/WJLm1lMxLmretjcMmGhqRy",
-    cover: null, accent: "#1E3A5F", studio: true
+    cover: "cases/11-rounds/img/257-616@1x.webp", accent: "#1E3A5F", studio: true
   }
 ];
