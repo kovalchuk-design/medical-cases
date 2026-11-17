@@ -49,6 +49,10 @@ node tools/verify-html.mjs <slug>                                 # needs old im
 - Needs hosts `api.figma.com`, `s3-alpha-sig.figma.com` (image fills), `fonts.googleapis.com`, `fonts.gstatic.com`.
 - Every element has `data-id` (Figma node id) so comments/edits can target it.
 
+## Clickable prototype (Rounds)
+
+`cases/11-rounds/app/` — phone-sized app with 3 journeys (16 live HTML screens). Data `journeys.json` is built by `node cases/11-rounds/app/build.mjs` from the Figma Case presentation page: slide → product screen (SCREENS map, matched by image similarity), slide hotspot → tap area, slide text → side panel. Only the path controls are wired (Figma has no prototype links on product screens, only on the presentation slides). URL `#j1/3` = journey 1, step 3. Studio top bar shows a Prototype button when the manifest has `"app": "app/"`.
+
 ## Next steps (plan stages)
 
 1. ~~Sync 11 Rounds with images~~ done; still to verify every page against Figma (frame counts per page).

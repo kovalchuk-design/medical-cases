@@ -31,6 +31,7 @@ async function init() {
   $("caseTitle").textContent = m.title;
   if (m.source && m.source.fileKey) {
     $("figmaBtn").hidden = false;
+    if (m.app) { $("protoBtn").hidden = false; $("protoBtn").href = "../cases/" + slug + "/" + m.app; }
     $("figmaBtn").href = "https://www.figma.com/design/" + m.source.fileKey;
   }
   const pres = m.pages.find(p => p.kind === "presentation");
