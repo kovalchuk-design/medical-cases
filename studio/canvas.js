@@ -134,7 +134,7 @@ export class Canvas {
       img.src = this.base + n.img + want + ".webp";
       it.el.appendChild(img);
     } else if (n.html) {
-      const live = scale >= 0.25;
+      const live = scale >= (n.parent ? 0.03 : 0.25);   // screens live even zoomed out; big sections (bg + connectors) stay thumbnails until zoomed in
       if (it.level === (live ? "live" : "thumb")) return;
       it.level = live ? "live" : "thumb";
       it.el.replaceChildren();
