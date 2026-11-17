@@ -51,7 +51,7 @@ node tools/verify-html.mjs <slug>                                 # needs old im
 
 ## Clickable prototype (Rounds)
 
-`cases/11-rounds/app/` — phone-sized app with 3 journeys (16 live HTML screens). Data `journeys.json` is built by `node cases/11-rounds/app/build.mjs` from the Figma Case presentation page: slide → product screen (SCREENS map, matched by image similarity), slide hotspot → tap area, slide text → side panel. Only the path controls are wired (Figma has no prototype links on product screens, only on the presentation slides). URL `#j1/3` = journey 1, step 3. Studio top bar shows a Prototype button when the manifest has `"app": "app/"`.
+`cases/11-rounds/app/` plays the Figma **Case presentation** slides literally: each slide is its converted HTML (`frames/<id>.html`) scaled to fit, the Atmosphere layer (gradient + glass stripes) is cloned to fill the whole page, the raster phone screen is replaced by the live product screen, and hotspots are the Figma prototype links from `manifest.json` (tabs, Back/Next, the outlined control, cards on Overview). `screens.json` (slide → screen rectangle → product frame) is built by `node cases/11-rounds/app/build.mjs`. Do not re-design it in code: the Figma slide is the design. URL `#<slideId>`; ←/→ Back/Next, Esc = Overview. Only the path controls are wired: Figma has no prototype links on product screens. Studio top bar shows a Prototype button when the manifest has `"app": "app/"`.
 
 ## Next steps (plan stages)
 

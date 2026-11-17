@@ -1,0 +1,586 @@
+{
+ "fileKey": "WJLm1lMxLmretjcMmGhqRy",
+ "start": "132:4674",
+ "slides": {
+  "128:1930": {
+   "name": "J1 · 1/5 · Only offers worth your time",
+   "html": "frames/128-1930.html",
+   "screens": [
+    {
+     "rectId": "255:4747",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "15:191",
+     "html": "frames/15-191.html",
+     "w": 402,
+     "h": 874,
+     "name": "1.2.1 Discover",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    580,
+    186,
+    20
+   ]
+  },
+  "128:2244": {
+   "name": "J1 · 2/5 · The real rate, not the posted one",
+   "html": "frames/128-2244.html",
+   "screens": [
+    {
+     "rectId": "255:4834",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "17:3",
+     "html": "frames/17-3.html",
+     "w": 402,
+     "h": 1433,
+     "name": "2.1.1 Offer · Locum",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "128:2580": {
+   "name": "J1 · 3/5 · Know your leverage before you ask",
+   "html": "frames/128-2580.html",
+   "screens": [
+    {
+     "rectId": "255:4921",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "17:182",
+     "html": "frames/17-182.html",
+     "w": 402,
+     "h": 1080,
+     "name": "2.1.2 Offer · Agent analysis",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    580,
+    186,
+    20
+   ]
+  },
+  "128:2896": {
+   "name": "J1 · 4/5 · Approve once. The agent negotiates.",
+   "html": "frames/128-2896.html",
+   "screens": [
+    {
+     "rectId": "255:5008",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "18:3",
+     "html": "frames/18-3.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.2.1 Review offer · First time",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "128:3139": {
+   "name": "J1 · 5/5 · Sent. Now it’s the agent’s job.",
+   "html": "frames/128-3139.html",
+   "screens": [
+    {
+     "rectId": "255:5095",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "18:312",
+     "html": "frames/18-312.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.2.4 Confirmation · Counter sent",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "129:1915": {
+   "name": "J2 · 1/6 · Negotiation, translated",
+   "html": "frames/129-1915.html",
+   "screens": [
+    {
+     "rectId": "255:5181",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "20:484",
+     "html": "frames/20-484.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.3.6 Facility response · Round 2",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    492,
+    186,
+    20
+   ]
+  },
+  "129:2160": {
+   "name": "J2 · 2/6 · A term sheet a human can read",
+   "html": "frames/129-2160.html",
+   "screens": [
+    {
+     "rectId": "255:5269",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "20:626",
+     "html": "frames/20-626.html",
+     "w": 402,
+     "h": 974,
+     "name": "2.3.7 Term sheet · Ready to sign",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "129:2434": {
+   "name": "J2 · 3/6 · Signed in a glance",
+   "html": "frames/129-2434.html",
+   "screens": [
+    {
+     "rectId": "255:5357",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "113:1259",
+     "html": "frames/113-1259.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.3.11 Sign with Face ID",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    492,
+    186,
+    20
+   ]
+  },
+  "129:2687": {
+   "name": "J2 · 4/6 · Booked, and the next steps are moving",
+   "html": "frames/129-2687.html",
+   "screens": [
+    {
+     "rectId": "255:5445",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "20:771",
+     "html": "frames/20-771.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.3.8 Term sheet · Signed",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "129:2842": {
+   "name": "J2 · 5/6 · Credentialing without the chase",
+   "html": "frames/129-2842.html",
+   "screens": [
+    {
+     "rectId": "255:5533",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "21:3",
+     "html": "frames/21-3.html",
+     "w": 402,
+     "h": 874,
+     "name": "3.1.1 Credentialing · Tracker",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    580,
+    186,
+    20
+   ]
+  },
+  "129:3028": {
+   "name": "J2 · 6/6 · All your work, one calendar",
+   "html": "frames/129-3028.html",
+   "screens": [
+    {
+     "rectId": "255:5621",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "22:3",
+     "html": "frames/22-3.html",
+     "w": 402,
+     "h": 874,
+     "name": "3.2.1 Assignments",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "130:3433": {
+   "name": "J3 · 1/5 · One inbox, agent included",
+   "html": "frames/130-3433.html",
+   "screens": [
+    {
+     "rectId": "255:5706",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "26:3",
+     "html": "frames/26-3.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.1 Inbox",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "130:3605": {
+   "name": "J3 · 2/5 · Ask in plain language",
+   "html": "frames/130-3605.html",
+   "screens": [
+    {
+     "rectId": "255:5793",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "26:104",
+     "html": "frames/26-104.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.2 Agent chat",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    492,
+    186,
+    20
+   ]
+  },
+  "130:3788": {
+   "name": "J3 · 3/5 · The agent works in the open",
+   "html": "frames/130-3788.html",
+   "screens": [
+    {
+     "rectId": "255:5880",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "118:691",
+     "html": "frames/118-691.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.6 Agent is working",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "130:3927": {
+   "name": "J3 · 4/5 · Facilities talk to Maya, not around her",
+   "html": "frames/130-3927.html",
+   "screens": [
+    {
+     "rectId": "255:5967",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "26:227",
+     "html": "frames/26-227.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.3 Facility thread",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "130:4070": {
+   "name": "J3 · 5/5 · Documents shared on purpose",
+   "html": "frames/130-4070.html",
+   "screens": [
+    {
+     "rectId": "255:6054",
+     "box": [
+      1192,
+      144,
+      396,
+      861
+     ],
+     "display": [
+      1192,
+      144,
+      396,
+      860
+     ],
+     "screenId": "118:762",
+     "html": "frames/118-762.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.7 Document requested in thread",
+     "figma": true
+    }
+   ],
+   "open": [
+    96,
+    548,
+    186,
+    20
+   ]
+  },
+  "132:4674": {
+   "name": "Overview · Start here",
+   "html": "frames/132-4674.html",
+   "screens": [
+    {
+     "rectId": "262:1048",
+     "box": [
+      255,
+      401,
+      244,
+      530
+     ],
+     "preview": true,
+     "screenId": "15:191",
+     "html": "frames/15-191.html",
+     "w": 402,
+     "h": 874,
+     "name": "1.2.1 Discover"
+    },
+    {
+     "rectId": "262:1186",
+     "box": [
+      839,
+      401,
+      244,
+      530
+     ],
+     "preview": true,
+     "screenId": "20:484",
+     "html": "frames/20-484.html",
+     "w": 402,
+     "h": 874,
+     "name": "2.3.6 Facility response · Round 2"
+    },
+    {
+     "rectId": "262:1286",
+     "box": [
+      1423,
+      401,
+      244,
+      530
+     ],
+     "preview": true,
+     "screenId": "26:3",
+     "html": "frames/26-3.html",
+     "w": 402,
+     "h": 874,
+     "name": "4.3.1 Inbox"
+    }
+   ],
+   "open": null
+  }
+ }
+}

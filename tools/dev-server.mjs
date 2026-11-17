@@ -32,6 +32,8 @@ http.createServer(async (req, res) => {
     if (type.startsWith("text/html")) {
       const { readFile } = await import("node:fs/promises");
       const html = await readFile(file, "utf8");
+      // frames are loaded in nested iframes (dozens at once): an SSE connection in each would exhaust the browser's per-host limit
+      if (req.headers["sec-fetch-dest"] === "iframe") return res.end(html);
       res.end(html.includes("</body>") ? html.replace("</body>", CLIENT + "</body>") : html + CLIENT);
     } else createReadStream(file).pipe(res);
   } catch {
