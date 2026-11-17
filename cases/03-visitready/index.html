@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisitReady · Pre-visit check-in patient app · Healthcare product design</title>
+  <meta name="description" content="VisitReady — concept patient app: booking, 4-minute pre-visit check-in with insurance card OCR and live eligibility, and a visit-day hub.">
+  <link rel="stylesheet" href="../../portfolio/shell.css">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="case.css">
+</head>
+<body class="vr" data-case="03-visitready">
+<main>
+  <section class="vr-hero">
+    <div class="vr-wrap vr-hero-grid">
+      <div>
+        <p class="vr-over">Case 03 · Patient app · Concept / self-initiated</p>
+        <h1>Check in from the couch, not the waiting room</h1>
+        <p class="vr-lead">VisitReady moves registration out of the waiting room and onto the patient's phone before the visit: insurance card, ID, forms and copay. At the clinic, one tap — "I'm here".</p>
+        <div class="vr-tags">
+          <span class="vr-tag">iOS · Android · mobile web via SMS</span>
+          <span class="vr-tag">38 frames · 3 D-flows</span>
+          <span class="vr-tag">WCAG 2.2 AA</span>
+          <span class="vr-tag">HIPAA-aware</span>
+          <span class="vr-tag">Synthetic data</span>
+        </div>
+        <div class="vr-actions">
+          <a class="vr-btn primary" href="https://www.figma.com/design/YxaZkKeULhsAPNH6qI1GjX" target="_blank" rel="noopener">Open in Figma</a>
+          <a class="vr-btn secondary" href="#screens">See the screens</a>
+        </div>
+      </div>
+      <div class="vr-cover"><img src="cover.png" alt="VisitReady cover: card scanner, You're all set, and I'm here screens" onerror="this.remove()"></div>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-snap">
+    <div class="vr-wrap">
+      <p class="vr-over">Snapshot</p>
+      <h2 id="s-snap">The product in one view</h2>
+      <dl class="vr-facts">
+        <div class="vr-fact"><dt>Platform</dt><dd>iOS & Android (HIG / Material 3) + mobile web check-in from an SMS link, no install</dd></div>
+        <div class="vr-fact"><dt>Users</dt><dd>Patient, parent or caregiver with proxy access, front desk</dd></div>
+        <div class="vr-fact"><dt>Setting</dt><dd>Network of outpatient and urgent-care clinics; in-person and telehealth visits</dd></div>
+        <div class="vr-fact"><dt>Scope</dt><dd>15 screens (3 deep + 12 standard) + 3 story frames</dd></div>
+        <div class="vr-fact"><dt>My role</dt><dd>Product design end to end: research synthesis, flows, design system, UI, specs</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-problem">
+    <div class="vr-wrap">
+      <p class="vr-over">Problem</p>
+      <h2 id="s-problem">The front desk is the bottleneck every patient passes through</h2>
+      <ul class="vr-list">
+        <li>On-site registration — paper forms, a copy of the insurance card, ID, signatures, copay — creates a line and makes the first appointment start late.</li>
+        <li>Registration errors (wrong member ID, inactive coverage) lead to denied claims and billing rework.</li>
+        <li>No-show averages about 23% (<a href="https://pubmed.ncbi.nlm.nih.gov/29482948/" target="_blank" rel="noopener">Dantas et al., 2018</a>). Rescheduling is hard, so patients simply don't come.</li>
+        <li>Telehealth visits fail at the start because of camera, microphone and connection issues.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-users">
+    <div class="vr-wrap">
+      <p class="vr-over">Users</p>
+      <h2 id="s-users">Who it is for</h2>
+      <p class="vr-intro">Synthetic personas built from the PRD.</p>
+      <div class="vr-cols">
+        <article class="vr-card"><h3>Sofia Ramirez, 34</h3><p>Books for herself and her daughter. Wants to arrive with no paperwork and no line.</p><p class="vr-pain">Fills in the same forms every time.</p></article>
+        <article class="vr-card"><h3>Robert Hayes, 71</h3><p>Hypertension. Wants to know what to bring and not get lost in the app.</p><p class="vr-pain">Small type and unclear steps.</p></article>
+        <article class="vr-card"><h3>Kim, front desk</h3><p>Needs to see who already checked in and whose coverage is inactive.</p><p class="vr-pain">A line at 8:00 and a phone that never stops.</p></article>
+        <article class="vr-card"><h3>Clinician</h3><p>Wants to start on time with medications and allergies already updated.</p><p class="vr-pain">The first patient is late because of registration.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-story">
+    <div class="vr-wrap">
+      <p class="vr-over">Product story</p>
+      <h2 id="s-story">Bottleneck → hypothesis → solution</h2>
+      <div class="vr-story">
+        <article class="vr-card"><h3>Bottleneck</h3><p>Registration at the door: every minute at the front desk multiplies across every morning patient.</p></article>
+        <article class="vr-card"><h3>Hypothesis</h3><p>If 70% of patients check in ahead of time, the line disappears, the first visit starts on time, and OCR + eligibility checks cut registration errors.</p></article>
+        <article class="vr-card"><h3>Solution</h3><p>Pre-visit check-in (card OCR, eligibility, forms prefilled from the last visit, e-sign, payment), "I'm here", one-tap reschedule, telehealth tech check.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="vr-section" id="screens" aria-labelledby="s-screens">
+    <div class="vr-wrap">
+      <p class="vr-over">Design</p>
+      <h2 id="s-screens">Key flows</h2>
+      <p class="vr-intro">Each deep flow covers the happy path, states and edge cases. Scroll a row sideways to see every frame.</p>
+      <div id="flows"></div>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-impact">
+    <div class="vr-wrap">
+      <p class="vr-over">Impact model · projected</p>
+      <h2 id="s-impact">What the model predicts per clinic, per day</h2>
+      <div class="vr-kpis">
+        <div class="vr-kpi"><strong>8 → 1 min</strong><span>front-desk time per pre-checked patient</span></div>
+        <div class="vr-kpi"><strong>~4.9 h</strong><span>front-desk time freed: 60 patients × 70% × 7 min</span></div>
+        <div class="vr-kpi"><strong>23% → 18%</strong><span>no-show with reminders + one-tap reschedule</span></div>
+        <div class="vr-kpi"><strong>3 visits</strong><span>saved per day (60 × 5%)</span></div>
+      </div>
+      <p class="vr-note">All values except the no-show baseline are design-model assumptions for a concept case, to be validated in usability tests and a pilot. Not client results.</p>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-metrics">
+    <div class="vr-wrap">
+      <p class="vr-over">Goals</p>
+      <h2 id="s-metrics">Success metrics</h2>
+      <div class="vr-scroll">
+        <table class="vr-table">
+          <thead><tr><th scope="col">Metric</th><th scope="col">How we measure</th><th scope="col">Target (model)</th></tr></thead>
+          <tbody>
+            <tr><td>Pre-check-in rate</td><td>Share of visits with check-in completed before arrival</td><td>≥ 70%</td></tr>
+            <tr><td>Front-desk time</td><td>Minutes per patient from timestamps</td><td>8 → 1</td></tr>
+            <tr><td>Registration errors</td><td>Share of claims denied for registration data</td><td>−50%</td></tr>
+            <tr><td>No-show rate</td><td>Share of visits with no arrival</td><td>23% → 18%</td></tr>
+            <tr><td>Self-reschedule</td><td>Share of reschedules done by the patient in the app</td><td>≥ 60%</td></tr>
+            <tr><td>Telehealth on-time start</td><td>Visits started within 5 min of the slot</td><td>≥ 95%</td></tr>
+            <tr><td>Check-in completion time</td><td>Median, minutes</td><td>≤ 4</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="vr-section" aria-labelledby="s-trust">
+    <div class="vr-wrap">
+      <p class="vr-over">Compliance & accessibility</p>
+      <h2 id="s-trust">Safe by default</h2>
+      <div class="vr-cols">
+        <article class="vr-card"><h3>HIPAA</h3><p>PHI only after authentication. SMS links are short-lived with OTP sign-in. No diagnoses in notifications — "Room 4 is ready" only.</p></article>
+        <article class="vr-card"><h3>Patient safety</h3><p>Two identifiers (full name + date of birth) before any PHI changes. Proxy flows always name the patient, not the account holder.</p></article>
+        <article class="vr-card"><h3>Payments & ID</h3><p>PCI DSS via the payment provider; card numbers are never stored. ID photo encrypted, with the purpose stated.</p></article>
+        <article class="vr-card"><h3>WCAG 2.2 AA</h3><p>Text ≥ 4.5:1, targets ≥ 44 pt, Dynamic Type to XXL, VoiceOver cues for the scanner, "Type my name" as an alternative to drawing a signature.</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="vr-foot"><div class="vr-wrap">Concept / self-initiated. Synthetic data (Brightside Clinics, Cedar Mutual Health Plan and all people are fictional). No real brands or client results.</div></footer>
+
+<script>
+  // Screens: export each Figma frame (file YxaZkKeULhsAPNH6qI1GjX) to screens/<file>.png — node IDs listed for automation.
+  var FLOWS = [
+    { id: "VR-01", title: "Pre-visit check-in", tier: "Deep", text: "Six steps with saved progress: details → insurance card scan with OCR and live eligibility → photo ID → only-what-changed health forms → consents & e-sign → copay → You're all set.",
+      shots: [
+        ["4:23","vr01-0-intro","Intro from SMS","Two identifiers before any PHI"],
+        ["4:87","vr01-1-details","1 · Confirm details","Prefilled from the last visit"],
+        ["4:161","vr01-2a-scan","2 · Scan the card","Auto-capture, VoiceOver cue"],
+        ["5:96","vr01-2b-ocr","2 · Review OCR","Low-confidence field flagged; coverage active"],
+        ["5:232","vr01-3-photo-id","3 · Photo ID","Optional for returning patients"],
+        ["5:312","vr01-4-forms","4 · Health forms","Only what changed"],
+        ["6:278","vr01-5-consents","5 · Consents & e-sign","Typed-name alternative"],
+        ["6:368","vr01-6-payment","6 · Copay","Wallet, card or pay at visit"],
+        ["6:446","vr01-7-done","You're all set","3 min 48 s"],
+        ["7:390","vr01-s-glare","State · Glare","Hint + retry"],
+        ["7:462","vr01-s-inactive","State · Coverage inactive","Three recovery paths"],
+        ["7:554","vr01-s-offline","State · Offline","Saved on device"],
+        ["7:644","vr01-s-expired","State · Session expired","Progress kept"],
+        ["9:585","vr01-e-two-plans","Edge · Two insurance plans","Billing order"],
+        ["9:690","vr01-e-minor","Edge · Minor","Guardian signs"],
+        ["9:753","vr01-e-manual","Edge · No card","Manual entry"]
+      ]},
+    { id: "VR-03", title: "Visit day hub", tier: "Deep", text: "Countdown → \"I'm here\" inside a 200 m geofence or by tap → place in line → \"Room 4 is ready\". Running late and one-tap reschedule hand freed slots to the waitlist.",
+      shots: [
+        ["10:6","vr03-1-before","45 min before","Manual check-in always works"],
+        ["10:98","vr03-2-geofence","At the clinic","One tap"],
+        ["10:168","vr03-3-queue","Arrived","#2 in line"],
+        ["10:251","vr03-4-room","Room 4 is ready","Directions"],
+        ["10:316","vr03-4b-push","Push","No PHI on the lock screen"],
+        ["11:176","vr03-s-late","State · Running late","5 / 10 / 15 min"],
+        ["11:236","vr03-s-late-ok","State · Clinic confirmed","Slot kept"],
+        ["11:293","vr03-s-incomplete","State · Check-in incomplete","2 steps left"],
+        ["11:358","vr03-s-doc-late","State · Clinician late","New ETA"],
+        ["11:418","vr03-s-cancelled","State · Cancelled by clinic","Rebook, no fee"],
+        ["11:509","vr03-e-location-off","Edge · Location off","Manual tap"],
+        ["11:573","vr03-e-no-signal","Edge · No signal","Queued + SMS fallback"]
+      ]},
+    { id: "VR-02", title: "Book a visit", tier: "Deep", text: "Reason → recommended visit type with no diagnosis (red flags route to 911) → clinician and slot → estimated cost → confirmation; waitlist when nothing is free.",
+      shots: [
+        ["12:6","vr02-1-reason","1 · Reason","Booking for: profile switch"],
+        ["12:68","vr02-2-type","2 · Visit type","Recommendation, user decides"],
+        ["12:136","vr02-3-slot","3 · Clinician & time","Soonest or a specific doctor"],
+        ["12:221","vr02-4-review","4 · Review & cost","$25 copay estimate"],
+        ["12:292","vr02-5-booked","5 · Booked","What happens next"],
+        ["13:150","vr02-s-waitlist","State · No slots","Join waitlist"],
+        ["13:242","vr02-s-red-flag","State · Red flag","Call 911"]
+      ]},
+    { id: "VR-04", title: "Home", tier: "Standard", text: "Next visit, tasks across the family, and quick booking.",
+      shots: [["14:65","vr04-home","Home","Profile switcher for proxy access"]] }
+  ];
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  document.getElementById("flows").innerHTML = FLOWS.map(function (f) {
+    return '<div class="vr-flow"><div class="vr-flow-head"><h3>' + esc(f.id) + ' · ' + esc(f.title) + '</h3><span class="vr-tier">' + esc(f.tier) + '</span></div>' +
+      '<p>' + esc(f.text) + '</p><div class="vr-rail" role="list">' +
+      f.shots.map(function (s) {
+        return '<figure class="vr-shot" role="listitem" data-node="' + s[0] + '"><div class="vr-frame">' +
+          '<div class="vr-missing" aria-hidden="true">Export pending · node ' + s[0] + '</div>' +
+          '<img src="screens/' + s[1] + '.png" alt="' + esc(s[2]) + '" loading="lazy" onerror="this.remove()">' +
+          '</div><figcaption><b>' + esc(s[2]) + '</b>' + esc(s[3]) + '</figcaption></figure>';
+      }).join("") + '</div></div>';
+  }).join("");
+</script>
+<script src="../../portfolio/cases.js"></script>
+<script src="../../portfolio/case-bar.js"></script>
+</body>
+</html>

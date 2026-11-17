@@ -1,0 +1,35 @@
+/* VisitReady design tokens — mirrors Figma variables in file YxaZkKeULhsAPNH6qI1GjX
+   (collections "VR · Color" and "VR · Dimension", text styles, effect styles). Case-local: do not import elsewhere. */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+:root {
+  /* brand */
+  --brand-coral-500: #F2775F; --brand-coral-600: #D9583F; --brand-coral-100: #FDE9E4; --brand-coral-50: #FFF5F2;
+  /* action */
+  --action-teal-800: #0A4649; --action-teal-700: #0F5E63; --action-teal-600: #16767C; --action-teal-100: #D7ECEC; --action-teal-50: #EEF7F7;
+  /* text */
+  --text-primary: #1C2526; --text-secondary: #4A5759; --text-tertiary: #66767A; --text-on-action: #FFFFFF;
+  /* surface */
+  --surface-page: #FAF7F5; --surface-card: #FFFFFF; --surface-sunken: #F1ECE8; --surface-inverse: #1C2526;
+  /* border */
+  --border-default: #DCE3E4; --border-strong: #9AA8AA; --border-focus: #16767C;
+  /* status */
+  --status-success: #1D7A4C; --status-success-bg: #E3F3EA; --status-warning: #9A5800; --status-warning-bg: #FFF1D6;
+  --status-danger: #B7322A; --status-danger-bg: #FCE6E4; --status-info: #2B5BA8; --status-info-bg: #E5EEFB;
+  /* dimension */
+  --space-4: 4px; --space-8: 8px; --space-12: 12px; --space-16: 16px; --space-20: 20px; --space-24: 24px; --space-32: 32px; --space-48: 48px;
+  --radius-8: 8px; --radius-12: 12px; --radius-16: 16px; --radius-24: 24px; --radius-full: 999px;
+  /* type (Figtree) */
+  --font: "Figtree", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --type-display: 700 34px/42px var(--font);
+  --type-title-l: 700 28px/34px var(--font);
+  --type-title-m: 600 22px/28px var(--font);
+  --type-headline: 600 17px/24px var(--font);
+  --type-body: 400 17px/24px var(--font);
+  --type-body-s: 400 15px/22px var(--font);
+  --type-label: 600 15px/20px var(--font);
+  --type-caption: 500 13px/18px var(--font);
+  --type-overline: 700 12px/16px var(--font);
+  /* elevation */
+  --elev-card: 0 2px 8px rgba(28,38,38,.08), 0 8px 24px rgba(28,38,38,.06);
+  --elev-sheet: 0 -4px 24px rgba(28,38,38,.16);
+}

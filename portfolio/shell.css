@@ -1,0 +1,81 @@
+/* Portfolio shell — index page and the thin frame around case pages.
+   Cases never import this file's tokens for their own UI; they bring their own tokens.css. */
+:root {
+  --shell-bg: #F6F5F2;
+  --shell-surface: #FFFFFF;
+  --shell-ink: #17181A;
+  --shell-ink-2: #4B4E55;
+  --shell-ink-3: #6B6F78;
+  --shell-line: #E3E1DC;
+  --shell-accent: #17181A;
+  --shell-ready: #1D7A4C;  --shell-ready-bg: #E3F3EA;
+  --shell-wip: #9A5800;    --shell-wip-bg: #FFF1D6;
+  --shell-planned: #4B4E55; --shell-planned-bg: #ECEBE7;
+  --shell-radius: 20px;
+  --shell-font: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --shell-max: 1280px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body.shell { margin: 0; background: var(--shell-bg); color: var(--shell-ink); font-family: var(--shell-font); line-height: 1.5; }
+.shell a { color: inherit; }
+.shell-wrap { max-width: var(--shell-max); margin: 0 auto; padding: 0 24px; }
+.shell-skip { position: absolute; left: -9999px; }
+.shell-skip:focus { left: 16px; top: 16px; background: var(--shell-ink); color: #fff; padding: 8px 12px; border-radius: 8px; z-index: 10; }
+
+/* Header */
+.shell-head { padding-top: 64px; padding-bottom: 32px; }
+.shell-over { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--shell-ink-3); margin: 0 0 12px; }
+.shell-title { font-size: clamp(34px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; font-weight: 750; max-width: 16ch; }
+.shell-lead { font-size: 18px; color: var(--shell-ink-2); max-width: 60ch; margin: 0; }
+.shell-legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+
+/* Filters */
+.shell-filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 8px 0 24px; }
+.shell-filter { font: inherit; font-size: 14px; font-weight: 600; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--shell-line); background: var(--shell-surface); color: var(--shell-ink); cursor: pointer; }
+.shell-filter[aria-pressed="true"] { background: var(--shell-ink); border-color: var(--shell-ink); color: #fff; }
+.shell-filter:focus-visible, .shell-card:focus-visible { outline: 3px solid #2B6CB0; outline-offset: 3px; }
+
+/* Grid + cards */
+.shell-grid { list-style: none; margin: 0; padding: 0 0 80px; display: grid; gap: 24px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); }
+.shell-card { display: flex; flex-direction: column; height: 100%; text-decoration: none; background: var(--shell-surface); border: 1px solid var(--shell-line); border-radius: var(--shell-radius); overflow: hidden; transition: transform .15s ease, box-shadow .15s ease; }
+.shell-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(23,24,26,.10); }
+.shell-cover { aspect-ratio: 4 / 3; background: var(--accent, #333); position: relative; overflow: hidden; }
+.shell-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.shell-ph { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 24px; color: #fff;
+  background: radial-gradient(120% 90% at 100% 0%, rgba(255,255,255,.22), transparent 60%), var(--accent, #333); }
+.shell-ph-n { font-size: 15px; font-weight: 700; opacity: .85; }
+.shell-ph-t { font-size: clamp(32px, 4vw, 44px); font-weight: 750; letter-spacing: -0.02em; line-height: 1; }
+.shell-body { padding: 18px 20px 22px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.shell-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.shell-name { font-size: 20px; font-weight: 700; margin: 0; }
+.shell-num { color: var(--shell-ink-3); font-weight: 600; margin-right: 6px; }
+.shell-tag { font-size: 15px; color: var(--shell-ink-2); margin: 0; }
+.shell-meta { font-size: 13px; color: var(--shell-ink-3); margin: auto 0 0; padding-top: 6px; }
+.shell-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.shell-chip { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--shell-bg); color: var(--shell-ink-2); }
+
+.shell-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.shell-status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.shell-status.ready { color: var(--shell-ready); background: var(--shell-ready-bg); }
+.shell-status.wip { color: var(--shell-wip); background: var(--shell-wip-bg); }
+.shell-status.planned { color: var(--shell-planned); background: var(--shell-planned-bg); }
+
+.shell-foot { border-top: 1px solid var(--shell-line); padding: 24px 0 48px; font-size: 13px; color: var(--shell-ink-3); }
+
+/* Thin bar on top of every case page */
+.shell-bar { position: sticky; top: 0; z-index: 50; background: rgba(246,245,242,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--shell-line); font-family: var(--shell-font); color: var(--shell-ink); }
+.shell-bar .shell-wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 56px; }
+.shell-bar a { text-decoration: none; font-size: 14px; font-weight: 600; }
+.shell-bar nav { display: flex; gap: 16px; align-items: center; }
+.shell-bar .shell-pos { font-size: 13px; color: var(--shell-ink-3); }
+
+/* Stub case page (cases without a built page yet) */
+.stub-hero { padding-top: 48px; padding-bottom: 24px; }
+.stub-cover { border-radius: var(--shell-radius); overflow: hidden; aspect-ratio: 4 / 3; max-height: 70vh; width: 100%; background: var(--accent, #333); position: relative; }
+.stub-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.stub-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 80px; }
+.stub-btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 14px; background: var(--shell-ink); color: #fff !important; text-decoration: none; font-weight: 650; }
+.stub-btn.ghost { background: transparent; color: var(--shell-ink) !important; border: 1px solid var(--shell-line); }
+
+@media (prefers-reduced-motion: reduce) { .shell-card { transition: none; } .shell-card:hover { transform: none; } }

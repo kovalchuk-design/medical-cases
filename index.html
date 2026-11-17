@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Healthcare Product Design · Sergei K.</title>
+  <meta name="description" content="11 concept case studies in US healthcare product design: patient apps, clinician tools, healthcare SaaS and AI.">
+  <link rel="stylesheet" href="portfolio/shell.css">
+</head>
+<body class="shell">
+  <a class="shell-skip" href="#cases">Skip to cases</a>
+  <header class="shell-head shell-wrap">
+    <p class="shell-over">Sergei K. · Senior UX/UI Product Designer</p>
+    <h1 class="shell-title">Healthcare product design</h1>
+    <p class="shell-lead">11 concept case studies for US healthcare — patient apps, clinician tools, healthcare SaaS and AI. Each case has its own design system. All cases are concept / self-initiated and use synthetic data.</p>
+  </header>
+
+  <main class="shell-wrap" id="cases">
+    <div class="shell-filters" role="group" aria-label="Filter cases by status">
+      <button class="shell-filter" type="button" data-filter="all" aria-pressed="true">All <span data-count="all"></span></button>
+      <button class="shell-filter" type="button" data-filter="ready" aria-pressed="false">Ready <span data-count="ready"></span></button>
+      <button class="shell-filter" type="button" data-filter="wip" aria-pressed="false">In progress <span data-count="wip"></span></button>
+      <button class="shell-filter" type="button" data-filter="planned" aria-pressed="false">Planned <span data-count="planned"></span></button>
+    </div>
+    <ul class="shell-grid" id="grid"></ul>
+  </main>
+
+  <footer class="shell-foot shell-wrap">Concept work. No real patients, payers, EHR vendors or drug brands. Metrics are projected or from usability tests.</footer>
+
+  <script src="portfolio/cases.js"></script>
+  <script>
+    (function () {
+      var LABEL = { ready: "Ready", wip: "In progress", planned: "Planned" };
+      var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+      var grid = document.getElementById("grid");
+      grid.innerHTML = window.CASES.map(function (c) {
+        var cover = c.cover
+          ? '<img src="' + esc(c.cover) + '" alt="" loading="lazy">'
+          : '<div class="shell-ph" aria-hidden="true"><span class="shell-ph-n">' + esc(c.n) + '</span><span class="shell-ph-t">' + esc(c.title) + '</span></div>';
+        return '<li data-status="' + c.status + '"><a class="shell-card" href="cases/' + esc(c.slug) + '/">' +
+          '<div class="shell-cover" style="--accent:' + esc(c.accent) + '">' + cover + '</div>' +
+          '<div class="shell-body">' +
+            '<div class="shell-row"><h2 class="shell-name"><span class="shell-num">' + esc(c.n) + '</span>' + esc(c.title) + '</h2>' +
+            '<span class="shell-status ' + c.status + '">' + LABEL[c.status] + '</span></div>' +
+            '<p class="shell-tag">' + esc(c.tagline) + '</p>' +
+            '<div class="shell-chips">' + c.tags.map(function (t) { return '<span class="shell-chip">' + esc(t) + '</span>'; }).join("") + '</div>' +
+            '<p class="shell-meta">' + esc(c.platform) + '</p>' +
+          '</div></a></li>';
+      }).join("");
+
+      var counts = { all: window.CASES.length, ready: 0, wip: 0, planned: 0 };
+      window.CASES.forEach(function (c) { counts[c.status]++; });
+      document.querySelectorAll("[data-count]").forEach(function (el) { el.textContent = "· " + counts[el.dataset.count]; });
+
+      var buttons = document.querySelectorAll(".shell-filter");
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function () {
+          buttons.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+          var f = b.dataset.filter;
+          grid.querySelectorAll("li").forEach(function (li) { li.hidden = f !== "all" && li.dataset.status !== f; });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
