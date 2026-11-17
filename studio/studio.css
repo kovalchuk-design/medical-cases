@@ -78,6 +78,7 @@ button, a { font: inherit; }
 .st-stage { position: relative; background: #111; box-shadow: 0 0 0 1px #222; }
 .st-stage img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .st-stage .st-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--st-ink-3); font-size: 18px; background: repeating-linear-gradient(135deg, #1A1A1A 0 16px, #202020 16px 32px); }
+.st-stage iframe { position: absolute; left: 0; top: 0; border: 0; transform-origin: 0 0; pointer-events: none; background: #fff; }
 .st-hot { position: absolute; border: 0; padding: 0; background: transparent; cursor: pointer; border-radius: 4px; }
 .st-hot:hover, .st-hot:focus-visible, .st-stage.is-hint .st-hot { background: rgba(13,153,255,.18); box-shadow: inset 0 0 0 2px var(--st-accent); outline: none; }
 .st-present-bar { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); display: flex; gap: 8px; align-items: center; padding: 6px 8px; border-radius: 10px; background: rgba(30,30,30,.92); color: var(--st-ink-2); opacity: 0; transition: opacity .2s; }

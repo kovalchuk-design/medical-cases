@@ -31,9 +31,23 @@ Needs a session on the **`medical-cases`** cloud environment with hosts `api.fig
 | 01 Rosterline | 01-rosterline | Xpl0Fa7f8VpRiwWe2F6znZ | not synced |
 | 02 Attest | 02-attest | 36fjAO68F9iPxaKCT7K50i | not synced |
 | 03 VisitReady | 03-visitready | YxaZkKeULhsAPNH6qI1GjX | not synced; old hand-made page in `cases/03-visitready/` (replace with studio after sync) |
-| 11 Rounds | 11-rounds | WJLm1lMxLmretjcMmGhqRy | synced (10 pages, 236 nodes, 236 images; cover set) |
+| 11 Rounds | 11-rounds | WJLm1lMxLmretjcMmGhqRy | live HTML (232 frames + thumbs), rasters removed; todo: connector arrows as SVG, comments layer |
 
 After a sync: set `cover` and `studio: true` for the case in `portfolio/cases.js`, make `cases/<slug>/index.html` redirect to the studio (see `cases/11-rounds/index.html`).
+
+## Live HTML pipeline (Rounds is done this way; use it for every Figma-synced case)
+
+```
+node tools/figma-sync.mjs <slug> <fileKey> --no-images           # structure + prototype links only
+node tools/fetch-fonts.mjs <slug> "Poppins:300,400,500,600" "Inter:100..900"
+node tools/figma-to-html.mjs <slug> <fileKey>                     # frames/<id>.html: DOM text, CSS boxes, inline SVG; sets node.html
+node tools/thumbs.mjs <slug>                                      # thumbs/<id>.webp for zoomed-out canvas; sets node.thumb
+node tools/verify-html.mjs <slug>                                 # needs old img/*@1x.webp rasters to diff against; skip when absent
+```
+- Studio shows `html` nodes as live iframes (≥25% zoom) and `thumb` below; presentation uses iframes. No Figma rasters are kept.
+- Auto-layout is flattened to absolute boxes (pixel-exact, not responsive). SF Pro is not redistributable → Inter stand-in; SF Symbols glyphs are exported from Figma as inline SVG.
+- Needs hosts `api.figma.com`, `s3-alpha-sig.figma.com` (image fills), `fonts.googleapis.com`, `fonts.gstatic.com`.
+- Every element has `data-id` (Figma node id) so comments/edits can target it.
 
 ## Next steps (plan stages)
 

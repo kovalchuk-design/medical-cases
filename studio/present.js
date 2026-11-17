@@ -85,16 +85,23 @@ export class Presenter {
     this.current = id;
     history.replaceState(null, "", "#present/" + encodeURIComponent(id));
     this.stage.replaceChildren();
-    const img = new Image();
-    img.alt = f.name;
-    img.onerror = () => {
-      const ph = document.createElement("div");
-      ph.className = "st-ph";
-      ph.textContent = f.name + " — image not synced yet";
-      img.replaceWith(ph);
-    };
-    img.src = this.base + f.img + ((f.scale || 1) >= 2 ? "@2x" : "@1x") + ".webp";
-    this.stage.appendChild(img);
+    if (f.html) {
+      const fr = document.createElement("iframe");
+      Object.assign(fr, { src: this.base + f.html, title: f.name, tabIndex: -1 });
+      Object.assign(fr.style, { width: f.w + "px", height: f.h + "px" });
+      this.stage.appendChild(fr);
+    } else {
+      const img = new Image();
+      img.alt = f.name;
+      img.onerror = () => {
+        const ph = document.createElement("div");
+        ph.className = "st-ph";
+        ph.textContent = f.name + " — image not synced yet";
+        img.replaceWith(ph);
+      };
+      img.src = this.base + f.img + ((f.scale || 1) >= 2 ? "@2x" : "@1x") + ".webp";
+      this.stage.appendChild(img);
+    }
     const mine = this.links.filter(l => l.from === id);
     for (const l of mine) {
       const b = document.createElement("button");
@@ -119,6 +126,8 @@ export class Presenter {
     if (!f) return;
     const k = Math.min(window.innerWidth / f.w, window.innerHeight / f.h);
     Object.assign(this.stage.style, { width: f.w * k + "px", height: f.h * k + "px" });
+    const fr = this.stage.querySelector("iframe");
+    if (fr) fr.style.transform = "scale(" + k + ")";
   }
 
   hint() {

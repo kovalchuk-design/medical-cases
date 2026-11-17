@@ -18,6 +18,7 @@ if (process.env.HTTPS_PROXY || process.env.https_proxy) setGlobalDispatcher(new 
 const [slug, fileKey, ...rest] = process.argv.slice(2);
 if (!slug || !fileKey) { console.error("Usage: node tools/figma-sync.mjs <slug> <fileKey> [--force] [--pages a,b]"); process.exit(1); }
 const FORCE = rest.includes("--force");
+const NO_IMAGES = rest.includes("--no-images");   // HTML cases: structure only; then run figma-to-html.mjs + thumbs.mjs
 const onlyPages = (() => { const i = rest.indexOf("--pages"); return i >= 0 ? rest[i + 1].split(",").map(s => s.trim()) : null; })();
 
 const API = "https://api.figma.com/v1";
@@ -159,12 +160,14 @@ async function main() {
 
   // Export images, grouped by scale (the images endpoint takes one scale per request).
   const todo = [];
-  for (const n of jobs) {
+  if (NO_IMAGES) for (const n of jobs) { delete n.img; delete n.scale; }
+  else for (const n of jobs) {
     const done = await exists(path.join(OUT, n.img + "@1x.webp"));
     if (FORCE || !sameVersion || !done) todo.push(n);
   }
   console.log(`→ images: ${todo.length} to export, ${jobs.length - todo.length} up to date`);
   const byScale = new Map();
+  if (NO_IMAGES) todo.length = 0;
   for (const n of todo) { const k = n.scale.toFixed(2); if (!byScale.has(k)) byScale.set(k, []); byScale.get(k).push(n); }
 
   let doneCount = 0;
